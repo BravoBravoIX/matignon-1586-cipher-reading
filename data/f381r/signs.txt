@@ -12,7 +12,7 @@
 11	9t S # # eta th eta o 14 F k b u mq y xi hook k y a u ss y
 12	eta L C C T y th Cu Noo p m k ss q Z longs u + k B F eta
 13	hook k yv u F p+ 9t u 2 + C Lq eta b S yv T u a Lr C T B q o
-14	mq 7 9t k L S eps q u ss Cu B Lq 19 eta b y th ss^ Lr
+14	mq 7 9t k L S eps q u ss Cu B eps 19 eta b y th ss^ Lr yv
 15	L p+ mq m S ss b u y k ss 2 C p+ q B d Lr b ss p+ C k 2
 16	18 g + 9t b B d Lr F 2 k ss dots 14 S C # eta y p+ yv a B
 17	g # k L Cu B eps 19 k C eta q + k ss C B 2 eta b y k

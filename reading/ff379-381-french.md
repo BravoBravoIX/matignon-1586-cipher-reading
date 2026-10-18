@@ -3,9 +3,9 @@
 Despatch in Matignon's Cipher-3, autumn 1586 (sender probably Matignon; addressed to the King).
 Images: Gallica `btv1b90618780` views 740–745, Source gallica.bnf.fr / BnF.
 
-**Status: partial reading (v0.4), work in progress.** 2,837 signs were read by Claude Opus 5.5 against a sign sheet (five passes, voted), then:
+**Status: near-complete reading (v0.5); open items listed.** 2,837 signs were read by Claude Opus 5.5 against a sign sheet (five passes, voted), then:
 
-- sign classes the sheet had merged were told apart on the image (version 0.4: B/Bn, xi/eps, 9t/z3, S/Sq, 14/4, oo, each change asked of the reader twice and looked at by eye; version 0.4: xi/zz, S/6, S/Gc and the code signs Noo and 13, decided by eye on contact sheets of every occurrence, see `stageF-relabel.json`);
+- sign classes the sheet had merged were told apart on the image (version 0.5: B/Bn, xi/eps, 9t/z3, S/Sq, 14/4, oo, each change asked of the reader twice and looked at by eye; version 0.5: xi/zz, S/6, S/Gc and the code signs Noo and 13, decided by eye on contact sheets of every occurrence, see `stageF-relabel.json`);
 - five image-decided correction rounds on the unresolved stretches (a change only where two reader asks agree and the image supports it);
 - names, places and period spellings added to the lexicon (`lexicon-additions-v1.tsv`), and an elision rule (l', d', qu'...).
 
@@ -79,17 +79,17 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 22 vostre maieste [p] el [t] faire estat en [·] il me
 ```
 
-## f. 379v (view 741; 566 letter positions, signs read as sense 0.902)
+## f. 379v (view 741; 566 letter positions, signs read as sense 0.9082)
 
 ### Literal
 
 ```
  1 seambletuilseraplusa
- 2 propusdecoleetcerparlapourneto
+ 2 propusdecomencerparlapourneto
  3 erladineriuraeretantpourle
  4 soullaigementdeuossubie
  5 tsqueosterlefoienausdicts
- 6 delareligionietauoirdvostres
+ 6 delareligionetetauoirdvostres
  7 ruiceplustostquedallerata
  8 queuerunefortemplaceoulesi
  9 egepouroynestresilong
@@ -113,11 +113,11 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 
 ```
  1 se amble tu il sera plus a
- 2 pro pus decole et cer par la pour net o
+ 2 pro pus de comencer par la pour net o
  3 er la diner iura er etant pour le=
  4 s ou [ll] aige ment de uos subie=
  5 ts que oster le foi en aus dict [s]
- 6 de la religion ie tauoir [d] vostre s=
+ 6 de la religion et et auoir [d] vostre s=
  7 r uice plustost que daller a ta
  8 que uer une fort em place ou le si=
  9 ege pour oy nestre si long
@@ -128,7 +128,7 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 14 uos a faire set pour ceste fei=
 15 s if maieste lauoit agrea [b]
 16 [l] cil seroit a [e] soing que vostre ar=
-17 mes a chemin as [t] [n] blanc en
+17 mes acheminast [n] blanc en
 18 a er y a con vostre [p] [ll] an uille [b] pos
 19 etc [u] allais et ce faisan ne [ll]
 20 tiendroit en suspens les
@@ -193,7 +193,7 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 22 er aler eut au ire a ce que vostre mai est
 ```
 
-## f. 380v (view 743; 593 letter positions, signs read as sense 0.9247)
+## f. 380v (view 743; 594 letter positions, signs read as sense 0.9342)
 
 ### Literal
 
@@ -217,7 +217,7 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 17 sceusquelesarmyesestoientpl
 18 aoseseteusrespocedelusqui
 19 lsatetferoitaquicequeyetlusgand
-20 foisdestoitdallersasarecepn
+20 foisdestoitdallersasarecepte
 21 amarmandemaislafriandis
 22 etlelaroitquifaictquebaillanttro
 23 iscetsescusaavostreseurlon
@@ -246,14 +246,14 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 17 sceus que les ar mye sestoient [p] l=
 18 a ose set eus res [p] o ce delus qui=
 19 l sa tet feroit a qui ce que y et lus gand
-20 fois destoit daller sa sa re ce [p] n=
+20 fois destoit daller sa sa recepte
 21 a marmande mais la friand [i] s=
 22 et le laroit qui faict que baillant tro=
 23 is cet sescusa a vostre seur lon
 24 lu sen compte cinq de ens qui es
 ```
 
-## f. 381r (view 744; 618 letter positions, signs read as sense 0.9044)
+## f. 381r (view 744; 619 letter positions, signs read as sense 0.9179)
 
 ### Literal
 
@@ -271,7 +271,7 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 11 uorraiaapresentementest
 12 aduurniquele_roy_de_navarreadeslibleledera
 13 menerauecluyasonretourdela
-14 nguedoclesquedeohasnillo
+14 nguedoclesquedechastillon
 15 dandossetescualdevostreossauec
 16 leplusdeforcesquipouratantde
 17 piedquedecheuallesudecaste
@@ -299,7 +299,7 @@ The decoder runs a whole page at a time. It may use another pass's name for a si
 11 uorrai a a presentement est
 12 ad uu [r] ni que le_roy_de_navarre a des li ble le de ra=
 13 mener auec luy a son retour de la=
-14 nguedoc les que de oh as ni [ll] o
+14 nguedoc les que de chastillon
 15 dan dos set escu al de vostre os sauec
 16 le plus de forces qui pour a tant de
 17 pied que de cheual le su de caste=

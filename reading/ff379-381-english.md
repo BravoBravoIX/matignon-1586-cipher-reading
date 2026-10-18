@@ -5,7 +5,7 @@
 - Spelling is modernised in the reading of each phrase.
 - Phrases are in page order but not joined into sentences where the gaps are long.
 - [v.] stands for a sign before *majesté* that is not in the key. It is probably a code for *vostre*, which is an inference only.
-- Status: partial reading (v0.4), work in progress.
+- Status: near-complete reading (v0.5); open items listed.
 
 ## f. 379r
 
@@ -141,7 +141,7 @@ The despatch is a military report from Guyenne to the King in the autumn of 1586
 
 This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget gone to Mayenne at Bordeaux; Caumont; the Mas de Verdun; the Dordogne and Garonne). It fits Tomokiyo's attribution to Matignon's cipher. The sender's name does not appear in the readable stretches.
 
-## version 0.4: what the new reading adds
+## version 0.5: what the new reading adds
 
 **This is a translation of readable stretches, not part of the reading.** The French literal and normalised text (`ff379-381-french.md`) is the reading. Line numbers are manuscript lines. Words in (brackets) are our filling of a gap; a "?" marks a doubtful word (see `unresolved-v10.md`).
 
@@ -199,7 +199,7 @@ This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget go
 
 The names without (?) are what the key gives for the signs as read; the lexicon only chose between a sign's listed values. The names with (?) are Claude's proposed readings of stretches where one or two signs do not give the letters; they are listed as doubtful words in `unresolved-v10.md` and are not in the French literal.
 
-## version 0.4: what the new values add
+## version 0.5: what the new values add
 
 **This is a translation of readable stretches, not part of the reading.**
 - Key revision 9 adds values learnt from another Cipher-3 letter deciphered at the time, fr. 15570 ff. 271–273 (September 1585):
@@ -233,3 +233,21 @@ The names without (?) are what the key gives for the signs as read; the lexicon 
   - (1–3) "…they bring the artillery out of Navarrenx (Nau-a-rains), and with it two pieces…";
   - (5–7) "…there is no knowing their design (desseing?); it is a thing quite certain…".
   - The 1585 letter (fr. 15570) also speaks of the King of Navarre's artillery brought out of Navarrenx.
+
+## version 0.5: what the new places add
+
+**This is a translation of readable stretches, not part of the reading.**
+- The key is unchanged (revision 9). Five sign changes were kept, each chosen by two blind reader asks and checked on the image (`stageG-verified.json`). Two of them are signs at a line end that every reader pass had left out.
+- Two period forms were added to the lexicon, marked as prompted by the target: *comencer* and *acheminast*.
+- Line numbers are manuscript lines. A "?" marks a doubtful word. Readings below marked "(proposed)" come from the agent's notes in `unresolved-v10.md`: the decoder does not accept them.
+
+- **f. 379v:**
+  - (1–4) "…it seems to me it would be more to the purpose to begin (*comencer*) there, to clear (*nettoyer*, proposed) the said river (proposed), as much for the relief of your subjects as to take … from those of the religion, and to have [them] for your service, sooner than to go and attack a strong place where the siege could not be so short…";
+  - (16–17) "…it would be needful (*besoing*, proposed) that your army should make its way (*s'acheminast*) …".
+- **f. 380r** (6): "…it would take from him (proposed) every means of knowing anything more…".
+- **f. 380v** (20–21): "…to go … to collect his revenue (*faire sa recepte*) at Marmande, but the greed…".
+- **f. 381r:**
+  - (10) "…the diligence of [a code sign, perhaps *monsieur*] de Gourgues (proposed)…". Ogier de Gourgues held the King's finances at Bordeaux in 1586. The same small sign stands before *de Villeroy* on f. 380r. Its value is a conjecture.
+  - (14) "…the [forces] of Chastillon…": the closing n of *Chastillon* is in fact written; the reader passes had left it out.
+  - (22) "…they spread the rumour (*font courre le bruict*, proposed), but it is a thing I do not hold as certain".
+- **f. 381v** (11): "…to speak to the King [of Spain] and make him some offer (*quelque ofre*, proposed)…".

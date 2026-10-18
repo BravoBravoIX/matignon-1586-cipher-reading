@@ -1,10 +1,10 @@
 # BnF fr. 15573 f. 379v (Gallica view 741): sign names as read (five passes voted, image-checked corrections applied), one manuscript line per row: line number, a tab, the signs. Names are those of the reference sheet (method/).
 1	b k o hook longs + u y C th q ss k F p+ g + 9t b eta
-2	g T Lr 14 C ss B 2 Lr 18 k yv 2 k F Gc 20 Lp y u tri Lr
+2	g T Lr 14 C ss B 2 Lr z3 k yv 2 k F Gc 20 Lp y u tri Lr
 3	k T q eta m Z y xi F Z C # p k F u y eta mq a Lp 18
 4	b Lr C ss^ eta Z 7 u 30 k yv a B 9t S b ss C longs th k
 5	y 4 Cu S b y u T 18 d Lr th u mq eta 9t b L Z 2 a 4
-6	B 20 T u + th 23 # Lr mq # xi yv p+ C S Z T L d ss
+6	B 20 T u + th 23 # Lr mq /// xi yv p+ C S Z T L d ss
 7	F C th 2 u g + 9t b y S ss a Cu L p+ ss^ u T eta tri o
 8	Cu 57 k F 9t mq u d S T y k hook 14 q p+ 2 xi Lr C 18 ss th
 9	k 7 u 14 Lr 9t # S Lq y k b a T u ss th + Lr mq 7

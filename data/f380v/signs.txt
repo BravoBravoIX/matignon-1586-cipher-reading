@@ -18,7 +18,7 @@
 17	b 2 k C 6 Cu q u ss eta F 30 oo k ss xi b y S th k mq a g +
 18	p+ Lr ss u b xi y k 9t 4 T u b g Lr 2 k B q 9t b Sq C Z
 19	+ b eta tri /// lambda k F Lr th y p+ dots eps k Cu Z k a q 9t b 23 o mq L
-20	d S # ss L k b a Lr th y L eta ss^ k F b o ss p F k 2 u g y
+20	d S # ss L k b a Lr th y L eta ss^ k F b o ss p F k 2 u g y u
 21	p+ 30 eta F 30 p mq m k hook o th b 20 d T Z eta yv m # ss
 22	/// + xi q eta T S th yv dots 13 Cu longs p Z ss^ eta yv a y F Lr
 23	th ss eps k yv b xi ss eps C 4 eta o d ss k C T q Lr y

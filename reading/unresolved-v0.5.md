@@ -1,4 +1,4 @@
-# Unresolved stretches, version 0.4
+# Unresolved stretches, version 0.5
 
 Every run of signs that the page-level decoder did not place inside a dictionary word of three letters or more (or a listed short word), and every weak run (three or more decoded words in a row of two letters or fewer).
 Each was looked at on the image by the Claude agent .
@@ -32,12 +32,12 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 22 | 8–11 g u + a | pelt | stretch; **doubtful word**: 'vostre maieste pe[u]lt faire estat': g u + a = p e l t; no sign for u. |
 | 22 | 20–20 x | · | stretch; **code**: a circle on a cross (Venus-like sign, not on the sheet), also l. 3 s. 18: code sign, value unknown (context 'et [.] veu la saison', 'en [.] il me'). |
 
-## f. 379v: 29 items (26 explained, 3 unexplained); 48 of 490 signs in unresolved stretches
+## f. 379v: 29 items (27 explained, 2 unexplained); 45 of 490 signs in unresolved stretches
 
 | line | signs | letters | kind; cause |
 |---|---|---|---|
 | 1 | 7–8 y C | tu | stretch; **doubtful word**: '[q]uil sera plus a propos': y (curled 9) C th q; quil wants q for the y. |
-| 3 | 0–1 k T | er | stretch; **unread** (UNEXPLAINED): k and T at the line start are clear; no word found across the line break. |
+| 3 | 0–1 k T | er | stretch; **doubtful word**: 'il sera plus a propos de comencer par la pour net[t]o[y]/er la dite riuiere tant pour le soullaigement de vos subjects': the line before ends Lp yv u tri Lr = pour n e t o, and k T = e r start this line: 'nettoyer' (to clear [the river]). Supported by the sense of the whole passage (clearing the river of the Huguenot places, 'tant pour le soulagement ... que [pour] oster ...'). Against: no sign for y/i; and 'la dite riuiere' needs the faint p after # to be bleed-through, which the two reader asks did not agree on (step G), so the decoder still reads 'la diner iura er'. / k and T at the line start are clear; no word found across the line break. |
 | 3 | 13–14 k F | er | stretch; **damaged**: the p at 12 is a faint mirror-image stroke (bleed-through), not a sign; the reader kept it on three asks. |
 | 4 | 3–3 ss^ | ll | stretch; **doubtful word**: 'soullaigement de vos subjects': period spelling not in the lexicon; ss^ (ll) is blotted but readable. |
 | 5 | 21–21 4 | s | stretch; **doubtful word**: 'aux dict[s]': the plain 4 (s, key rev 7) at the line end; decoder leaves it. |
@@ -54,7 +54,7 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 15 | 21–21 longs | b | stretch; **damaged**: line-end long s (b) at the page edge with a blot below; 'agreable' wants bl (key rev 4 gives longs = b/bl). |
 | 16 | 0–0 + | l | stretch; **doubtful word**: '[e]l cil seroit': + eps th q = l c i l; the line-start + is clear: 'il' from the line before plus 'cil'? Left as doubtful. |
 | 16 | 11–11 u | e | stretch; **doubtful word**: 'a besoing': u (e) where b is wanted; the sign is a clear u. |
-| 17 | 10–13 o b y Bn | astn | stretch; **doubtful word**: 'b[l]anc en': longs = bl now reads 'blanc' (a place: Blanquefort? or 'de blanc' = idle); doubtful. |
+| 17 | 13–13 Bn | n | stretch; **doubtful word**: 'b[l]anc en': longs = bl now reads 'blanc' (a place: Blanquefort? or 'de blanc' = idle); doubtful. |
 | 18 | 1–2 k # | er | stretch; **doubtful word**: p+ k # oo eta 2 = 'a e r y a c': perhaps 'a ceste heure il y a' abbreviated; signs clear; doubtful. |
 | 18 | 9–12 g ss^ p+ yv | pllan | stretch; **unread** (UNEXPLAINED): 'vostre p ll a n uille': d g ss^ p+ yv 9t th ss^ k: signs clear (g is the 8-with-loop); no word found; perhaps a place name ending -ville. |
 | 18 | 17–17 longs | b | stretch; **doubtful word**: '[b]pos' / 'bl' : long s at 17 then g; a place name? left doubtful. |
@@ -66,7 +66,7 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 23 | 8–8 g | p | stretch; **doubtful word**: 'Saincte Foy': d g b = vostre/f + o + s; reads 'f o s' + 'u a' : 'Saincte Foy' with b where y is wanted? doubtful. |
 | 23 | 20–20 th | i | stretch; **damaged**: the last sign at the page edge is cut by the binding (th?). |
 
-## f. 380r: 23 items (22 explained, 1 unexplained); 48 of 492 signs in unresolved stretches
+## f. 380r: 23 items (23 explained, 0 unexplained); 48 of 492 signs in unresolved stretches
 
 | line | signs | letters | kind; cause |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 2 | 0–5 x x mq th k B | ·eniede | stretch; **damaged**: line start: two epsilon-like signs with crosses under them (bleed-through from the verso mixes with the ink); then mq over a blot; signs not certain. |
 | 2 | 19–20 C eta | ua | stretch; **doubtful word**: 'le s[ieu]r de Clervant a escript passant par ce pais': C eta (u a) at the line end, then Lr y? a on the next line; 'cler ua[n]t a' with the n missing or written as Lr (EM on f. 277r saw Lr = n twice). The same name recurs on l. 13 'cler uan ta qui'. Claude-Antoine de Vienne, sieur de Clervant, a Huguenot envoy in 1586-87. Against: not in the lexicon or the name lists; one sign doubtful. / C eta at the line end (page edge) clear; 'clerua' does not make a word; perhaps 'clerc' + next line. |
 | 6 | 9–10 2 x | c· | stretch; **damaged**: a small x-like sign then a large ink blot (L-shaped) over one or two signs. |
-| 6 | 18–19 q C | lu | stretch; **unread** (UNEXPLAINED): q C at 18-19 ('lu'): clear signs; 'seroit lu sos-' no word. |
+| 6 | 18–19 q C | lu | stretch; **doubtful word**: 'parce que [c'est ...] seroit luy oster tout moien d'en plus rien sauoir': q C = l u, then b Lr b / T k F = s o s / t e r. Supported by the next line ('tout moien de plus ry/en sauoir'). Against: a b (s) stands where y is wanted, and 'sos' has an extra s. / q C at 18-19 ('lu'): clear signs; 'seroit lu sos-' no word. |
 | 7 | 7–7 x | · | stretch; **damaged**: a heavy ink blot over one sign ('tout [.] moien'). |
 | 7 | 20–21 F Z | ry | stretch; **damaged**: F Z at the page edge in the gutter shadow. |
 | 8 | 0–1 o oo | ay | stretch; **reader doubt**: a faint o-like sign and a 2 (perhaps '20' = la written small): o vs 20; neither gives a word with 'u mq b y'. |
@@ -94,7 +94,7 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 20 | 8–9 # 2 | ic | stretch; **doubtful word**: 'le bruict n'est': T C # 2 y: b r u i c t with # = i; decoder splits it; 'bruict' not in the lexicon. |
 | 20 | 18–19 mq eta | na | stretch; **doubtful word**: 'qu'il n'a u/la ...': mq eta = n a, the elided n'a; the word that runs on to the next line is not read. |
 
-## f. 380v: 21 items (16 explained, 5 unexplained); 40 of 531 signs in unresolved stretches
+## f. 380v: 18 items (16 explained, 2 unexplained); 35 of 532 signs in unresolved stretches
 
 | line | signs | letters | kind; cause |
 |---|---|---|---|
@@ -114,28 +114,24 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 17 | 9–10 eta F | ar | stretch; **doubtful word**: 'les armyes s'estoient': eta F 30 oo k = a r m y e: 'armye' is a period spelling not in the lexicon. |
 | 17 | 23–23 g | p | stretch; **unread** (UNEXPLAINED): g at the line end ('[p] l=a ose'): clear; no word. |
 | 18 | 13–13 g | p | stretch; **damaged**: the g is crossed by a swash and a blot from the line above. |
-| 20 | 20–21 F k | re | stretch; **unread** (UNEXPLAINED): '60 ss p F k 2 u g y': 'faire s p r e c u p n': the 60 (faire) is clear; no words after it. |
-| 20 | 24–25 g y | pn | stretch; **unread** (UNEXPLAINED): '60 ss p F k 2 u g y': 'faire s p r e c u p n': the 60 (faire) is clear; no words after it. |
-| 21 | 0–0 p+ | a | stretch; **doubtful word**: 'a Marmande': p+ 30 eta F ... the line-start p+ has a faint loop; read with 'marmande' (a place in the list) after it. |
 | 21 | 20–20 # | i | stretch; **doubtful word**: 'mais la friandis[e]': # where i is wanted (key gives i/r). |
-| 24 | 0–1 + C | lu | stretch; **unread** (UNEXPLAINED): + C at the line start ('l u'): clear; 'lu sen compte'. |
+| 24 | 0–1 + C | lu | stretch; **doubtful word**: 'a vostre seur, l'on / lu[y] s'en compte cinq ...' or 'l'on lu[y] en compte': + C b = l u s, the same 'lu' + b where 'luy' is wanted as on f. 380r l. 6 ('seroit lu[y] [s]oster'). Against: b (s) stands where y is wanted, here and there; the pattern may be the writer's habit or a sign class the reader merges with b. / + C at the line start ('l u'): clear; 'lu sen compte'. |
 
-## f. 381r: 21 items (17 explained, 4 unexplained); 57 of 523 signs in unresolved stretches
+## f. 381r: 20 items (20 explained, 0 unexplained); 50 of 524 signs in unresolved stretches
 
 | line | signs | letters | kind; cause |
 |---|---|---|---|
 | 3 | 17–18 eta y | an | stretch; **doubtful word**: 'que telle meschancete ne demeure impugny': hook k b eps C eta y 2 k y u = m e s c u a n c e t e; the C (u) stands where h is wanted, and the image shows a plain C. / 'mescu an' : eta y (a n/t) at 'vostre maieste quet elle me scu[r]'; signs clear; no word. |
-| 4 | 16–17 k 14 | el | stretch; **unread** (UNEXPLAINED): k 14 (a 14 with a long cross stroke) th: 'e p i' ; no word. |
+| 4 | 16–17 k 14 | el | stretch; **reader doubt**: k then a tall cross stroke: in correction rounds r1-r5 the two asks never agreed on the second sign (14 / + / p+ / k). None of the classes gives a word: 'ep', 'el', 'ea' ('impugny [..] il deu/oit'?). / k 14 (a 14 with a long cross stroke) th: 'e p i' ; no word. |
 | 5 | 10–11 u 19 | eh | stretch; **damaged**: x (a blotted x-like sign), u, 19, then a heavily inked L-swash: blot over two signs ('cest eh deu'). |
 | 6 | 0–5 eta b u Z 6 k | aseyse | weak; **doubtful word**: 'quinse a seyse mile escus' (fifteen to sixteen thousand crowns): eta b u Z 6 k 30 Z + k = a s e y s e m i l e, with 6 = s (step F, fr. 15570 'venu[s] trouuer'). Against: 'seyse' and 'mile' are period spellings not in the lexicon. / 'a se y o em il escu': eta b u Z S k 30 Z + k: signs clear (a plain 6-like S); no word; the 6-like sign may be its own class. |
 | 8 | 0–3 Lq k mq p | yena | weak; **doubtful word**: 'il y en a ung an': Lq k mq p = y e n a: real short words that the measure counts as a weak run. / Lq k mq p ('y en a'): clear. |
 | 8 | 7–9 eta mq hook | anm | stretch; **code**: eta mq then a hook with a heavy blot on its top: hook or a code sign ('ung an [.] lac qui fera'). |
 | 9 | 7–7 u | e | stretch; **doubtful word**: 'le sembla[b]le': a clear w-like u where b is wanted; it may be a class of its own. / u where 'semblable' would want b ('le sembla[b]le'): the sign is a clear w-like u (not on the sheet: a separate class?). |
-| 10 | 7–7 7 | g | stretch; **unread** (UNEXPLAINED): 7 (g) between B B and 8: 'de [g] pur'; clear. |
-| 10 | 21–21 F | r | stretch; **unread** (UNEXPLAINED): F at the line end ('sil sy ou[r]'): clear. |
+| 10 | 7–7 7 | g | stretch; **doubtful word**: 'la dilligence de [small 8] de Gourgues': B (de), the small 8, B (de), then 7 g u r g u e s = 7 [g] C F 23 9t k b. Ogier de Gourgues was the president of the treasurers-general of France at Bordeaux in 1586, Matignon's man for the money of the campaign. The small 8 stands before 'de' + a name here and before 'de Villeroy' on f. 380r l. 1: a code sign, perhaps 'monsieur' (conjecture C?, no aligned occurrence in a deciphered letter). Against: the second sign is the 8-with-loop (g = p in the key); both step G asks kept g, where o is wanted; Gourgues is not in the name lists. / 7 (g) between B B and 8: 'de [g] pur'; clear. |
+| 10 | 21–21 F | r | stretch; **doubtful word**: 'sil sy ou[r] / uorrai a presentement': F (r) at the line end, then u o r r a i on the next line: perhaps 's'il s'y [p]ourvoira' (whether he will see to it now). Weak: no sign for p, and the verb form is uncertain. / F at the line end ('sil sy ou[r]'): clear. |
 | 12 | 0–6 eta L C C T y th | aduurni | stretch; **damaged**: 'ad[.]ni que y a': the Cu at 7 is a blotted u inside a double circle; T at 4 is a stroke over a smudge; the barred double o at 8 is a code sign. |
 | 12 | 13–14 q Z | li | stretch; **doubtful word**: 'le roy de Navarre a deslibere de ramener avec luy': m k ss q Z longs u + k = d e s l i bl e l e for 'deliberé'; against: an extra s and l where r is wanted. / q Z (l i) before a long s: 'des li ble' clear signs, no word. |
-| 14 | 12–18 eps 19 eta b y th ss^ | ohasnill | stretch; **doubtful word**: 'a son retour de Languedoc les [...] de Chastillon': eps 19 eta b y th ss^ Lr = c h a s t i ll o; François de Coligny, comte de Châtillon, led the Huguenot forces of Languedoc in 1586. Against: the sign before is Lq (o or y) and the closing n is not written. / 'oh as ni ll o' : eps 19 eta b y th ss^ Lr: signs clear; no word (a place name?). |
 | 15 | 13–14 p+ q | al | stretch; **doubtful word**: 'escu al de vostre os': q B d Lr b ss: d (vostre/f) before a swash; doubtful. |
 | 15 | 17–18 Lr b | os | stretch; **doubtful word**: 'escu al de vostre os': q B d Lr b ss: d (vostre/f) before a swash; doubtful. |
 | 17 | 14–15 ss C | su | stretch; **doubtful word**: 'le s[ieu]r de Castelnau': ss C = s u, an abbreviation of sieur (as 'le sr de' in the decipherments). / ss C with a heavy loop ('le su de'): clear. |
@@ -144,9 +140,9 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 19 | 4–4 th | i | stretch; **damaged**: th with a heavy blot over its top ('ung [.] regiment'). |
 | 20 | 5–6 g C | pu | stretch; **code**: an epsilon with a looped top and a stroke over it (also l. 22 s. 4, where the reader asks agreed it is not a C): a sign on no row of the sheet and on no deciphered page seen so far; value unknown. The long zigzag after it (s. 10) now reads ss (step F). / an epsilon with a looped top and a stroke over it (also l. 20 s. 5): a separate sign, not on the sheet; then C eta ss^ Lr and a long zigzag sign (a 3 with a long zigzag tail, not the xi of the sheet): two code or unknown signs, values not known. |
 | 20 | 8–8 ss^ | ll | stretch; **code**: an epsilon with a looped top and a stroke over it (also l. 22 s. 4, where the reader asks agreed it is not a C): a sign on no row of the sheet and on no deciphered page seen so far; value unknown. The long zigzag after it (s. 10) now reads ss (step F). / an epsilon with a looped top and a stroke over it (also l. 20 s. 5): a separate sign, not on the sheet; then C eta ss^ Lr and a long zigzag sign (a 3 with a long zigzag tail, not the xi of the sheet): two code or unknown signs, values not known. |
-| 22 | 3–18 alpha x mq y eps Lr C # u 18 p+ F C Z 2 y | f·nneouielearuict | stretch; **unread** (UNEXPLAINED): 'ne ou ie le ar ui [c t]': alpha C mq y eps Lr C # u 18 p+ F C: signs clear; no words. |
+| 22 | 3–18 alpha x mq y eps Lr C # u 18 p+ F C Z 2 y | f·nneouielearuict | stretch; **code**: 'ils f[.]nt courre le [b]ruict mais c'est chose que ie ne tiens asseuree' (they spread the rumour, but I do not hold it certain): alpha (f), the epsilon with a looped top (a code sign of unknown value; o would give 'font'; also l. 20), mq y (n t), eps Lr C # u (c o u r e: 'courre'), 18 (le), p+ F C Z 2 y (b r u i c t with p+ where b is wanted). Supported by the next line. Against: one unknown code sign, and p+ = b has no aligned evidence (p+ = a on fr. 15570 and f. 277r); p+ stands where b is wanted also in f. 379v 'a [b]esoing' and 'Bergerac', so p+ may hide a second sign shape (conjecture C?). / 'ne ou ie le ar ui [c t]': alpha C mq y eps Lr C # u 18 p+ F C: signs clear; no words. |
 
-## f. 381v: 10 items (8 explained, 2 unexplained); 20 of 295 signs in unresolved stretches
+## f. 381v: 10 items (9 explained, 1 unexplained); 20 of 295 signs in unresolved stretches
 
 | line | signs | letters | kind; cause |
 |---|---|---|---|
@@ -157,7 +153,7 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 | 8 | 3–4 q x | ly | stretch; **doubtful word**: 'que l[e] [”] que de Bayonne?': q, a double tick (”-like, not on the sheet: code), C, then a B whose tail runs out to the right (Bn, n: the reader cut it as B + x), long s, eta, th, Lr = b a i o: 'Baion[ne]' (Bayonne) is a doubtful reading. |
 | 8 | 7–8 x longs | ·b | stretch; **doubtful word**: 'que l[e] [”] que de Bayonne?': q, a double tick (”-like, not on the sheet: code), C, then a B whose tail runs out to the right (Bn, n: the reader cut it as B + x), long s, eta, th, Lr = b a i o: 'Baion[ne]' (Bayonne) is a doubtful reading. |
 | 10 | 19–19 L | d | stretch; **doubtful word**: 'cest Duras qui est allee en Espaigne parler au roy': L (d) at the line end before 'ur/as'; the vicomte de Duras; the decoder reads 'dur as'; Duras is not in the place/person list (added lists did not include him); doubtful word. |
-| 11 | 18–22 u S lambda F xi | eofre | stretch; **unread** (UNEXPLAINED): 'que lou eo [f] re': u S lambda F xi: clear; no word. |
+| 11 | 18–22 u S lambda F xi | eofre | stretch; **doubtful word**: 'parler au roy et luy faire quelque ofre': Sq C u q [S] 9t u S lambda F xi = q u e l [q] u e o f r e. The agent sees the sign after q as the same S on a swash as the Sq four signs before; both step G reader asks kept plain S (o), so the decoder reads 'que lou eo'. 'ofre' (offre) is a period spelling not in the lexicon. / 'que lou eo [f] re': u S lambda F xi: clear; no word. |
 | 13 | 7–9 + oo v | lyx | stretch; **code**: 60 (faire) with a heavy blot on it, v (x), 20 (la), 57 S ss^: 'faire x la u o ll on'; the blot over the 60 and the v make 'faire' and the rest uncertain. |
 | 13 | 13–13 ss^ | ll | stretch; **code**: 60 (faire) with a heavy blot on it, v (x), 20 (la), 57 S ss^: 'faire x la u o ll on'; the blot over the 60 and the v make 'faire' and the rest uncertain. |
 
@@ -165,11 +161,11 @@ Causes accepted by bar (b): code sign, damaged, doubtful word, reader doubt.
 
 | cause | items |
 |---|---|
-| doubtful word | 67 |
+| doubtful word | 71 |
 | damaged | 25 |
-| unread | 15 |
-| code | 8 |
-| reader doubt | 4 |
+| code | 9 |
+| unread | 5 |
+| reader doubt | 5 |
 
-Explained: 104; unexplained: 15.
+Explained: 110; unexplained: 5.
 

@@ -1,4 +1,5 @@
 # word	count	sources (stage E lexicon additions; see code/lexadd.py)
+acheminast	3	period-target-prompted
 affutz	3	dec279v,period
 agen	3	place
 agenois	3	place
@@ -28,6 +29,7 @@ castets	3	place
 caumont	3	dec279r,place
 clairac	3	place
 cognac	3	place
+comencer	3	period-target-prompted
 comminges	3	dec279v,place
 commoditez	3	dec279r
 comptablie	3	period-target-prompted
