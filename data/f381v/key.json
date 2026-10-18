@@ -1,7 +1,7 @@
 {
  "format": "polyphone-key/1",
  "target": "BnF fr. 15573 f. 381v",
- "key_revision": 7,
+ "key_revision": 9,
  "tokenisation": {
   "rule": "glyph-ids",
   "params": {}
@@ -236,7 +236,7 @@
      ],
      "type": "polyphone",
      "conf": "probable",
-     "note": "origin T (f); 'vostre' C? (the same-looking sign before maieste and armee, which Tomokiyo also leaves as [votre])"
+     "note": "origin T (f) + E (vostre: 8 aligned occurrences on fr. 15570 ff. 271-272 vs f. 273)"
     },
     "alpha": {
      "v": "f",
@@ -406,6 +406,36 @@
      "conf": "sure",
      "note": "origin T (Tomokiyo's s column: a plain 4); class split from 14 on the image"
     },
+    "zz": {
+     "v": "ss",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin E (fr. 15570 ff. 271r-272r vs f. 273: rassemble, sasseure, assembler, asseure, ieusse; f. 278r promesse); class split from xi on the image"
+    },
+    "Noo": {
+     "v": "le_roy_de_navarre",
+     "type": "word",
+     "conf": "probable",
+     "note": "origin E? (code group; one aligned occurrence, fr. 15570 f. 271v l. 9 vs f. 273r 'empescher le roy de Navarre conduire')"
+    },
+    "13": {
+     "v": "faict",
+     "type": "word",
+     "conf": "probable",
+     "note": "origin E? (one aligned occurrence, fr. 15570 f. 271v l. 9 vs f. 273r 'quil a faict sortir'; doubtful)"
+    },
+    "Gc": {
+     "v": "par",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin E (fr. 15570 f. 272r 'revanche par la prinse', 'par l'intelligence' vs f. 273v; known-answer page f. 278r 'mande par le sieur' vs f. 280r)"
+    },
+    "6": {
+     "v": "s",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin E? (one aligned occurrence: fr. 15570 f. 271r 'venus trouver' vs f. 273r)"
+    },
     "x": {
      "v": null,
      "type": "unknown",
@@ -469,7 +499,7 @@
      "b"
     ],
     "Lx": [
-     "e"
+     "ee"
     ],
     "yv": [
      "t",

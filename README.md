@@ -2,29 +2,30 @@
 
 **BnF, Français 15573, ff. 379r–381v.** A despatch of autumn 1586 written wholly in cipher, six pages, addressed to King Henri III and probably sent by Marshal Jacques de Matignon from Guyenne. It uses the cipher that Satoshi Tomokiyo calls **Matignon's Cipher-3**.
 
-> **First reading of the whole despatch, version 0.3 (18 October 2026): work in progress, partial in places.** Every page is read; the remaining gaps are listed with their causes. Versions 0.1 and 0.2 were published earlier the same day.
+> **First reading of the whole despatch, version 0.4 (19 October 2026): work in progress, partial in places.** Every page is read; the remaining gaps are listed with their causes. Versions 0.1-0.3 were published on 18 October 2026.
 >
 > **Satoshi Tomokiyo published the opening line earlier**, on his page of Henri III's ciphers, which lists this letter as undeciphered and gives Matignon's Cipher-3: <https://cryptiana.web.fc2.com/code/henryiii.htm>. His opening reads "a ce quil plaist [votre] majeste me commander lui donner advis pour lentre de [votre] arme…". **Our reading of the opening matches it** (*a ce [q]uil … maieste*), and it was made without using his text.
 >
 > Beyond that line, as far as our search found (see [PRIOR-ART.md](PRIOR-ART.md)), no reading of these pages has been published. Updates will follow.
 
-## What changed in versions 0.2 and 0.3
+## What changed since version 0.1
 
-- **0.2:** five reader passes voted per sign (0.1 had three); the decoder works on a whole page and chooses the letter of each two-valued sign by whole French words; key revision 2.
-- **0.3:** sign shapes that the reference sheet had merged were split on the image, following Tomokiyo's table (each change needed two agreeing reader answers and a look at the crop); key revision 7, values added only from aligned occurrences in the 1586 decipherments (fr. 15572 ff. 279-280) or Tomokiyo's table, doubtful values flagged; four correction rounds decided on the image (34 changes kept, 72 proposed changes rejected); 164 period place names, persons and words added to the lexicon, each tagged by source (`data/lexicon-additions.tsv`; ten were added after the text suggested them and are tagged so).
+- **0.2:** five reader passes voted per sign (0.1 had three); the decoder works on a whole page and chooses the letter of each two-valued sign by whole French words.
+- **0.3:** sign shapes the reference sheet had merged were split on the image, following Tomokiyo's table (each change needed two agreeing reader answers and a look at the crop); key values added only from aligned occurrences in the 1586 decipherments (fr. 15572 ff. 279-280) or Tomokiyo's table, doubtful values flagged; four correction rounds decided on the image (34 changes kept, 72 proposed changes rejected); 164 period place names, persons and words added to the lexicon, each tagged by source (`data/lexicon-additions.tsv`).
+- **0.4:** six key values learnt from a further Cipher-3 letter deciphered at the time, fr. 15570 ff. 271r-272r (September 1585, decipherment on f. 273): a long zigzag = ss, a 9 in a circle = *par*, d = *vostre* (confirmed: "vostre maieste" five times), and, each from one occurrence and flagged doubtful, a barred double o = the code group *le roy de Navarre*, "13" = *faict*, a figure 6 = s. The old key already read that 1585 letter as French before any change, an independent check of the key. Every sign whose class changed was sorted by eye and confirmed by two agreeing reader answers; one more image-decided correction round.
 
-Share of signs that fall inside French words, per page; the known-answer page (fr. 15572 f. 278r, read and decoded the same way) scores 0.904, and the same signs shuffled score 0.59-0.70:
+Share of signs that fall inside French words, per page. The known-answer page (fr. 15572 f. 278r, read and decoded the same way) scores 0.907 in v0.4, and the same signs shuffled score 0.59-0.70:
 
-| page | v0.1 | v0.2 | v0.3 |
-|---|---|---|---|
-| f. 379r | 0.734 | 0.861 | 0.950 |
-| f. 379v | 0.779 | 0.864 | 0.902 |
-| f. 380r | 0.726 | 0.839 | 0.898 |
-| f. 380v | 0.780 | 0.885 | 0.923 |
-| f. 381r | 0.755 | 0.832 | 0.899 |
-| f. 381v | 0.722 | 0.810 | 0.915 |
+| page | v0.1 | v0.2 | v0.3 | v0.4 |
+|---|---|---|---|---|
+| f. 379r | 0.734 | 0.861 | 0.950 | 0.950 |
+| f. 379v | 0.779 | 0.864 | 0.902 | 0.902 |
+| f. 380r | 0.726 | 0.839 | 0.898 | 0.913 |
+| f. 380v | 0.780 | 0.885 | 0.923 | 0.925 |
+| f. 381r | 0.755 | 0.832 | 0.899 | 0.904 |
+| f. 381v | 0.722 | 0.810 | 0.915 | 0.932 |
 
-131 items remain (`reading/unresolved-v0.3.md`): 97 explained (code sign 18, damage 25, doubtful word 50, reader doubt 4) and 34 runs of clear signs not yet read; seven code signs are still unknown. Next: align further deciphered Cipher-3 letters listed by Tomokiyo to learn the remaining code signs.
+In v0.4, 119 items remain (`reading/unresolved-v0.4.md`): 104 explained (doubtful word 67, damage 25, code sign 8, reader doubt 4) and 15 runs of clear signs not yet read; five code signs are still unknown (they do not occur in the 1585 letter). The reading now names the King of Navarre, "your sister" at Agen, the artillery brought out of Navarrenx and "fifteen to sixteen thousand crowns". Next: further deciphered Cipher-3 letters for the five unknown signs.
 
 ## What the despatch is about
 
@@ -32,7 +33,7 @@ The readable stretches are a military report to the King on the Guyenne campaign
 
 ## Status of each page
 
-*Version 0.1 figures (three passes), kept for the record; the current per-page figures are in the version 0.3 table above.*
+*Version 0.1 figures (three passes), kept for the record; the current per-page figures are in the table above.*
 
 All pages were read the same way: three reader passes, voted, then image-checked corrections. 127 lines and 2834 signs in all.
 
@@ -86,7 +87,7 @@ The key is **Satoshi Tomokiyo's reconstruction** of Matignon's Cipher-3, publish
 
 ## The method in plain words
 
-*This describes version 0.1; versions 0.2 and 0.3 add the steps listed in the section above.*
+*This describes version 0.1; later versions add the steps listed above.*
 
 1. **A letter with a known answer.** fr. 15572 ff. 277r–278r is in the same cipher and hand, and its decipherment made at the time survives (ff. 279r–280r). We read that decipherment by eye.
 2. **A reference sheet.** From f. 277r we cut a sheet of 50 sign shapes, 2–5 examples each, named by their look only (the names say nothing about meaning).
@@ -101,7 +102,7 @@ Details are in [method/README.md](method/README.md).
 
 ## Measured numbers
 
-*These are the calibration measurements (on the known-answer letter, unchanged since version 0.1) and the version 0.1 controls; current per-page figures are in the version 0.3 table above.*
+*Calibration measurements on the known-answer letter (unchanged since version 0.1) and the version 0.1 controls; current per-page figures are in the table above.*
 
 **Reader calibrated on known text.** The reader was measured on fr. 15572 f. 278r, lines 12–18 (238 signs), against their contemporary decipherment on ff. 279–280. Nothing in the sheet or the key was tuned on these lines. The reference signs were read by eye and checked by decoding against the decipherment on f. 280r.
 
@@ -127,7 +128,7 @@ The readings sit at 3.874–4.42 bits per letter with dictionary cover 0.8607–
 
 ## What is unresolved
 
-*For the current list see `reading/unresolved-v0.3.md`; the text below describes version 0.1.*
+*For the current list see `reading/unresolved-v0.4.md`; the text below describes version 0.1.*
 
 - **Misread signs.** About one sign in twenty to thirty on known text, probably more on these pages. Stretches that match no dictionary word are shown in [brackets] in the Normalised text.
 - **Code signs not identified**: `x`, `oo`, `#`, `tri`, `excl`, `Lx2`, and the sign before *majesté* (probably *vostre*, an inference only). They print as `·`.
@@ -135,7 +136,7 @@ The readings sit at 3.874–4.42 bits per letter with dictionary cover 0.8607–
 - **No palaeographer has checked it.** The English gist is Claude's, from our Normalised French; it is not literal plaintext.
 - Line numbers of f. 381v run from 0 in `data/f381v/` (as in our working records) and from 1 in `reading/ff379-381-french.md`.
 
-This is version 0.3. **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
+This is version 0.4. **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
 
 ## Prior art
 
@@ -152,18 +153,18 @@ sh decode/check.sh
 Expected output:
 
 ```
-f379r stream: identical to data/f379r/plaintext.txt (576 bytes)
-f379r by-line: identical to data/f379r/plaintext-by-line.txt (683 bytes)
-f379v stream: identical to data/f379v/plaintext.txt (575 bytes)
+f379r stream: identical to data/f379r/plaintext.txt (593 bytes)
+f379r by-line: identical to data/f379r/plaintext-by-line.txt (700 bytes)
+f379v stream: identical to data/f379v/plaintext.txt (573 bytes)
 f379v by-line: identical to data/f379v/plaintext-by-line.txt (683 bytes)
-f380r stream: identical to data/f380r/plaintext.txt (562 bytes)
-f380r by-line: identical to data/f380r/plaintext-by-line.txt (663 bytes)
-f380v stream: identical to data/f380v/plaintext.txt (593 bytes)
-f380v by-line: identical to data/f380v/plaintext-by-line.txt (710 bytes)
-f381r stream: identical to data/f381r/plaintext.txt (578 bytes)
-f381r by-line: identical to data/f381r/plaintext-by-line.txt (692 bytes)
-f381v stream: identical to data/f381v/plaintext.txt (326 bytes)
-f381v by-line: identical to data/f381v/plaintext-by-line.txt (388 bytes)
+f380r stream: identical to data/f380r/plaintext.txt (581 bytes)
+f380r by-line: identical to data/f380r/plaintext-by-line.txt (684 bytes)
+f380v stream: identical to data/f380v/plaintext.txt (597 bytes)
+f380v by-line: identical to data/f380v/plaintext-by-line.txt (714 bytes)
+f381r stream: identical to data/f381r/plaintext.txt (622 bytes)
+f381r by-line: identical to data/f381r/plaintext-by-line.txt (734 bytes)
+f381v stream: identical to data/f381v/plaintext.txt (329 bytes)
+f381v by-line: identical to data/f381v/plaintext-by-line.txt (391 bytes)
 all pages reproduced exactly
 ```
 

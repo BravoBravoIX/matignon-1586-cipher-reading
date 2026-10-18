@@ -5,9 +5,7 @@
 - Spelling is modernised in the reading of each phrase.
 - Phrases are in page order but not joined into sentences where the gaps are long.
 - [v.] stands for a sign before *majesté* that is not in the key. It is probably a code for *vostre*, which is an inference only.
-- Status: partial reading (v0.3), work in progress.
-
-> The sections by page directly below are the version 0.1 translation, kept for the record. The current reading is in the section **Version 0.3** near the end. Square brackets mark words supplied or restored by us, not letters given by the key.
+- Status: partial reading (v0.4), work in progress.
 
 ## f. 379r
 
@@ -89,7 +87,7 @@
 - (9) "… wrote that …"
 - (10) "… who has gone into Spain … speaks …"
 
-## Version 0.2 additions (historical; superseded by version 0.3 below)
+## v0.2 additions (18 Oct 2026; same rules, from the v0.2 Normalised text)
 
 These come from five reader passes, the page-level decoder and key revision 2 (# = i; the sign before *maieste* and *armee* read as *vostre*, by conjecture).
 
@@ -143,7 +141,7 @@ The despatch is a military report from Guyenne to the King in the autumn of 1586
 
 This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget gone to Mayenne at Bordeaux; Caumont; the Mas de Verdun; the Dordogne and Garonne). It fits Tomokiyo's attribution to Matignon's cipher. The sender's name does not appear in the readable stretches.
 
-## Version 0.3 (18 Oct 2026): what the current reading adds (latest; read this section first)
+## version 0.4: what the new reading adds
 
 **This is a translation of readable stretches, not part of the reading.** The French literal and normalised text (`ff379-381-french.md`) is the reading. Line numbers are manuscript lines. Words in (brackets) are our filling of a gap; a "?" marks a doubtful word (see `unresolved-v10.md`).
 
@@ -200,3 +198,38 @@ This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget go
 - persons and offices: Villeroy (?), the President, Duras (?).
 
 The names without (?) are what the key gives for the signs as read; the lexicon only chose between a sign's listed values. The names with (?) are Claude's proposed readings of stretches where one or two signs do not give the letters; they are listed as doubtful words in `unresolved-v10.md` and are not in the French literal.
+
+## version 0.4: what the new values add
+
+**This is a translation of readable stretches, not part of the reading.**
+- Key revision 9 adds values learnt from another Cipher-3 letter deciphered at the time, fr. 15570 ff. 271–273 (September 1585):
+  - the long zigzag = ss;
+  - a 9 in a circle = *par*;
+  - a figure 6 = s;
+  - the barred double o = the code group *le roy de Navarre* (one aligned occurrence, doubtful);
+  - "13" = *faict* (one aligned occurrence, doubtful).
+- *vostre* for d is now confirmed by that letter.
+- Line numbers are manuscript lines. A "?" marks a doubtful word (see `unresolved-v10.md`).
+
+- **f. 379r** (13–15): "…[the tolls they have imposed] at Sainte-(Bazeille?) by the commissions which the King of Navarre has had issued, of which I send him [a copy?]…". The *King of Navarre* is the code group (doubtful).
+- **f. 379v** (2): "…by the (?)…": a 9 in a circle with a flourish, read as *par*.
+- **f. 380r:**
+  - (1–3) "…(Clervant?) has written, passing through this country, to one of his friends, who sent it to me and asks not to be discovered, because…";
+  - (12) "…hoping by the talk (devis) of the said…";
+  - (17–18) "(Poigny?) and the President … I judge that, if the King of Navarre has not found [the means?], he is disposed to take his side…";
+  - Clervant, Poigny and the King of Navarre are doubtful or code readings: see `unresolved-v10.md`.
+- **f. 380v:**
+  - (6–7) "…your sister (vostre seur) maintains such…";
+  - (13–14) "…to see themselves reduced (reduict?) to the state…";
+  - (21–22) "…at Marmande, but the greed (friandise)… which makes it that, giving three…".
+  - *Vostre seur*, "your sister", addressed to Henri III, would be Marguerite de Valois, who held Agen in 1585. This is an inference from the words, not part of the reading.
+- **f. 381r:**
+  - (1–4) "…for the cause that nothing has been done (faict), and that I very humbly beg your Majesty that such wickedness (meschanceté?) does not remain unpunished…";
+  - (5–7) "…the fifteenth (?) … fifteen to sixteen (seyse?) thousand crowns; it is a matter of such bad consequence (mauvaise conse…)…";
+  - (12–14) "…advised that the King of Navarre has decided (deslibere?) to bring back with him, on his return from Languedoc, the [forces?] of (Chastillon?)…";
+  - (21) "…they must also join with the said King of Navarre…";
+  - (23) "…it is a matter I do not hold as certain".
+- **f. 381v:**
+  - (1–3) "…they bring the artillery out of Navarrenx (Nau-a-rains), and with it two pieces…";
+  - (5–7) "…there is no knowing their design (desseing?); it is a thing quite certain…".
+  - The 1585 letter (fr. 15570) also speaks of the King of Navarre's artillery brought out of Navarrenx.

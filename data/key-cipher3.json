@@ -1,9 +1,9 @@
 {
  "name": "Matignon's Cipher-3 (as used in BnF fr. 15572 ff. 277-280 and fr. 15573 ff. 379-381)",
- "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2; stage E adds Bn, eps, z3 (split from B, xi, 9t on the image) 60, Sq and 4",
+ "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2; stage E adds Bn, eps, z3 (split from B, xi, 9t on the image) 60, Sq and 4; stage F adds zz (split from xi on the image), Noo and 13; Gc (a 9 in a circle) and 6 (a plain figure 6), told apart from S on the image",
  "origins": {
   "T": "Tomokiyo's published table (henryiii_Matignon3.png, cryptiana.web.fc2.com/code/henryiii.htm)",
-  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts); stage E adds f. 277v aligned by eye with f. 279v",
+  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts); stage E adds f. 277v aligned by eye with f. 279v; stage F adds fr. 15570 ff. 271r-272r (Sept. 1585) aligned with its decipherment f. 273r-v",
   "E?": "EM, few occurrences (< 6) or split: doubtful",
   "C?": "conjecture from context in the target itself (a code value); doubtful, listed for checking"
  },
@@ -219,7 +219,7 @@
     "f",
     "vostre"
    ],
-   "origin": "T (f); 'vostre' C? (the same-looking sign before maieste and armee, which Tomokiyo also leaves as [votre])"
+   "origin": "T (f) + E (vostre: 8 aligned occurrences on fr. 15570 ff. 271-272 vs f. 273)"
   },
   "alpha": {
    "values": [
@@ -384,6 +384,36 @@
     "s"
    ],
    "origin": "T (Tomokiyo's s column: a plain 4); class split from 14 on the image"
+  },
+  "zz": {
+   "values": [
+    "ss"
+   ],
+   "origin": "E (fr. 15570 ff. 271r-272r vs f. 273: rassemble, sasseure, assembler, asseure, ieusse; f. 278r promesse); class split from xi on the image"
+  },
+  "Noo": {
+   "values": [
+    "le_roy_de_navarre"
+   ],
+   "origin": "E? (code group; one aligned occurrence, fr. 15570 f. 271v l. 9 vs f. 273r 'empescher le roy de Navarre conduire')"
+  },
+  "13": {
+   "values": [
+    "faict"
+   ],
+   "origin": "E? (one aligned occurrence, fr. 15570 f. 271v l. 9 vs f. 273r 'quil a faict sortir'; doubtful)"
+  },
+  "Gc": {
+   "values": [
+    "par"
+   ],
+   "origin": "E (fr. 15570 f. 272r 'revanche par la prinse', 'par l'intelligence' vs f. 273v; known-answer page f. 278r 'mande par le sieur' vs f. 280r)"
+  },
+  "6": {
+   "values": [
+    "s"
+   ],
+   "origin": "E? (one aligned occurrence: fr. 15570 f. 271r 'venus trouver' vs f. 273r)"
   }
  },
  "unknown": [
@@ -391,6 +421,6 @@
   "word",
   "?"
  ],
- "revision": 7,
- "revision_note": "18 Oct 2026 (stage E): 4 = s (T), the plain 4 told apart from 14 on the image."
+ "revision": 9,
+ "revision_note": "18-19 Oct 2026 (stage F): Gc = par (E), 6 = s (E?), from fr. 15570 ff. 271r-272r and its 1585 decipherment f. 273; Gc also on the known-answer page."
 }
