@@ -3,7 +3,7 @@
 Despatch in Matignon's Cipher-3, autumn 1586 (sender probably Matignon; addressed to the King).
 Images: Gallica `btv1b90618780` views 740–745, Source gallica.bnf.fr / BnF.
 
-**Status: not solved.** The evidence weighs toward a *partial reading* (v0.2). 2,837 signs were read by Claude Opus 5.5 against a sign sheet:
+**Status: partial reading (v0.2), work in progress.** 2,837 signs were read by Claude Opus 5.5 against a sign sheet:
 
 - five passes, voted, with 25 image-checked corrections;
 - unresolved stretches re-read at a larger scale.

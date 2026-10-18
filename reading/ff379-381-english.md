@@ -5,7 +5,7 @@
 - Spelling is modernised in the reading of each phrase.
 - Phrases are in page order but not joined into sentences where the gaps are long.
 - [v.] stands for a sign before *majesté* that is not in the key. It is probably a code for *vostre*, which is an inference only.
-- Status: partial reading. Not solved.
+- Status: partial reading (v0.2), work in progress.
 
 ## f. 379r
 

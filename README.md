@@ -34,7 +34,7 @@ The readable stretches are a military report to the King on the Guyenne campaign
 
 All pages were read the same way: three reader passes, voted, then image-checked corrections. 127 lines and 2837 signs in all.
 
-| page | Gallica view | lines | signs | all three passes agree | corrections applied |
+| page | Gallica view | lines | signs | first three passes agree (v0.1; v0.2 adds two more) | corrections applied |
 |---|---|---|---|---|---|
 | f. 379r | 740 | 22 | 503 | 0.7913 | 3 |
 | f. 379v | 741 | 23 | 493 | 0.8174 | 6 |
@@ -102,9 +102,9 @@ Details are in [method/README.md](method/README.md).
 | reader | sign accuracy (either name accepted where the eye cannot choose) |
 |---|---|
 | pass a / b / c | 0.9538 / 0.9454 / 0.9244 |
-| **vote of the three passes** | **0.962** (0.933 strict, counting only the first accepted name) |
+| **vote of the three passes (calibration letter)** | **0.962** (0.933 strict, counting only the first accepted name) |
 
-So the vote reads about **0.962 per sign (0.933 strict)** on known text: roughly one sign in twenty to thirty is wrong. On the target pages the three passes agree less often (0.7665–0.8184 of positions, against 0.87 on the calibration page), so the error rate there is probably higher than on the calibration page.
+So the vote reads about **0.962 per sign (0.933 strict)** on known text: roughly one sign in twenty to thirty is wrong. On the target pages the first three passes agree less often (v0.2 adds two more passes, voted) (0.7665–0.8184 of positions, against 0.87 on the calibration page), so the error rate there is probably higher than on the calibration page.
 
 **Controls** (bits per letter under a period French 5-gram model, lower = more like French; dictionary cover = share of letters inside dictionary words of the word decode):
 
