@@ -4,7 +4,8 @@
  "origins": {
   "T": "Tomokiyo's published table (henryiii_Matignon3.png, cryptiana.web.fc2.com/code/henryiii.htm)",
   "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts)",
-  "E?": "EM, few occurrences (< 6) or split: doubtful"
+  "E?": "EM, few occurrences (< 6) or split: doubtful",
+  "C?": "conjecture from context in the target itself (a code value); doubtful, listed for checking"
  },
  "note": "Values are plaintext units; a list means the sign stands for any of them (homophones are separate signs; a list is a polyphone or a code with variants); \"\" = null. Nothing here was taken from anyone's modern reading of these letters.",
  "key": {
@@ -211,9 +212,10 @@
   },
   "d": {
    "values": [
-    "f"
+    "f",
+    "vostre"
    ],
-   "origin": "T+E"
+   "origin": "T (f); 'vostre' C? (the same-looking sign before maieste and armee, which Tomokiyo also leaves as [votre])"
   },
   "alpha": {
    "values": [
@@ -310,16 +312,23 @@
     "et"
    ],
    "origin": "E"
+  },
+  "#": {
+   "values": [
+    "i"
+   ],
+   "origin": "T+E (Tomokiyo's i column has this crossed sign; EM 3 of 5 on the calibration letter; in the target it stands where i is wanted, e.g. pres#dent, ma#este)"
   }
  },
  "unknown": [
   "x",
   "oo",
-  "#",
   "tri",
   "excl",
   "Lx2",
   "word",
   "?"
- ]
+ ],
+ "revision": 2,
+ "revision_note": "18 Oct 2026: # = i added; d may be 'vostre' (C?)."
 }

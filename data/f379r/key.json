@@ -220,10 +220,13 @@
      "note": "origin E?"
     },
     "d": {
-     "v": "f",
-     "type": "letter",
-     "conf": "sure",
-     "note": "origin T+E"
+     "v": [
+      "f",
+      "vostre"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin T (f); 'vostre' C? (the same-looking sign before maieste and armee, which Tomokiyo also leaves as [votre])"
     },
     "alpha": {
      "v": "f",
@@ -321,17 +324,18 @@
      "conf": "sure",
      "note": "origin E"
     },
+    "#": {
+     "v": "i",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E (Tomokiyo's i column has this crossed sign; EM 3 of 5 on the calibration letter; in the target it stands where i is wanted, e.g. pres#dent, ma#este)"
+    },
     "x": {
      "v": null,
      "type": "unknown",
      "note": "sign with no value in the key (or not on the sheet)"
     },
     "oo": {
-     "v": null,
-     "type": "unknown",
-     "note": "sign with no value in the key (or not on the sheet)"
-    },
-    "#": {
      "v": null,
      "type": "unknown",
      "note": "sign with no value in the key (or not on the sheet)"
@@ -363,15 +367,21 @@
     }
    },
    "choices": {
+    "d": [
+     "vostre",
+     "f",
+     "vostre",
+     "vostre",
+     "vostre",
+     "f",
+     "vostre"
+    ],
     "y": [
      "t",
      "n",
      "t",
      "t",
      "t",
-     "n",
-     "t",
-     "t",
      "t",
      "n",
      "t",
@@ -379,6 +389,12 @@
      "n",
      "t",
      "t",
+     "t",
+     "n",
+     "t",
+     "t",
+     "t",
+     "n",
      "t",
      "t",
      "t",
@@ -386,16 +402,15 @@
      "t"
     ],
     "yv": [
+     "t",
+     "n",
      "n",
      "t",
      "n",
      "n",
      "n",
      "t",
-     "n",
      "t",
-     "n",
-     "n",
      "n",
      "n"
     ],
@@ -403,6 +418,7 @@
      "o",
      "v",
      "v",
+     "o",
      "o",
      "v"
     ]

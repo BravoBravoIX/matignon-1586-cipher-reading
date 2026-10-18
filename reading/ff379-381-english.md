@@ -87,6 +87,49 @@
 - (9) "… wrote that …"
 - (10) "… who has gone into Spain … speaks …"
 
+## v0.2 additions (18 Oct 2026; same rules, from the v0.2 Normalised text)
+
+These come from five reader passes, the page-level decoder and key revision 2 (# = i; the sign before *maieste* and *armee* read as *vostre*, by conjecture).
+
+- **f. 379r, lines 1–3:** "… [so] that it may please your Majesty to … me … advice for the entry of your army …".
+  - This now runs close to Tomokiyo's published first line ("a ce quil plaist [votre] majeste me commander lui donner advis pour lentre de [votre] arme").
+  - The middle ("me commander lui donner") is still not resolved here.
+- **f. 379r, lines 20–22:** "… the clearest moneys, of which your Majesty …"
+- **f. 379v:**
+  - (6) "… the Religion …"
+  - (10) "… all that your army …"
+  - (15–16) "if your Majesty finds it agreeable, it would be needful that your army …"
+  - (19–20) "and by doing this … would hold in suspense the …"
+- **f. 380r:**
+  - (9) "… prejudicial … for … your service …"
+  - (10–11) "I judge that your Majesty could recognise …"
+  - (15) "… to his humour, of the negotiation …"
+  - (17) "… the President …"
+  - (19) "disposed to take his side (party)."
+- **f. 380v:**
+  - (2) "along the river Isle"
+  - (4) "their fortif[ications]"
+  - (7) "… your sister(?) … if she holds …"
+  - (8) "to fortify"
+  - (9–10) "… means, where she … she has very few means …"
+  - (21) "… commanded, but …"
+- **f. 381r:**
+  - (2–3) "… very humbly your Majesty …"
+  - (9–10) "… and the diligence of …"
+  - (11) "… at present is …"
+  - (12–14) "… to bring back with him on his return from Languedoc …"
+  - (15–17) "… with the most forces that he could, as many foot as [horse?] …"
+  - (17–18) "… Castelnau(?) …"
+  - (19) "… regiment, and Béarn …"
+  - (20–21) "… and they must join … with the said …"
+  - (22–23) "… but this thing which I do not hold …"
+- **f. 381v:**
+  - (1–2) "… they bring out the artillery …"
+  - (3) "… two pieces of …"
+  - (4) "… upstream …"
+  - (8–9) "… at present wrote that …"
+  - (10) "… who has gone to Spain … to speak …"
+
 ## What the gist suggests (not part of the reading)
 
 The despatch is a military report from Guyenne to the King in the autumn of 1586. The evidence weighs toward that reading, but it is unconfirmed:

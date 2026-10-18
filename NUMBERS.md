@@ -5,7 +5,7 @@ Every number in [README.md](README.md) and [method/README.md](method/README.md),
 | number | meaning | source in this repository |
 |---|---|---|
 | 127 lines, 2837 signs; per-page lines and signs | size of the reading | rows and sign names of `data/<page>/signs.txt` |
-| 0.831, 0.8641, 0.8516, 0.8362, 0.8547, 0.8508 | share of positions where all three passes agree, ff. 379r … 381v | `data/<page>/reading.json` `all_agree_share` |
+| 0.7913, 0.8174, 0.811, 0.7665, 0.8184, 0.8034 | share of positions where all three passes agree, ff. 379r … 381v | `data/<page>/reading.json` `all_agree_share` |
 | 3, 6, 5, 5, 6, 0 (in all 25) | corrections applied per page | `data/<page>/corrections.json` `applied` |
 | 10 per page; 60 looked at | correction proposals | `data/<page>/corrections.json` `rule` |
 | 238 signs | reference signs of fr. 15572 f. 278r lines 12–18 | `data/known-text/scores/*.score.json` `ref_signs`; `data/known-text/ref-278r-l12-18.txt` |
