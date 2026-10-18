@@ -1,4 +1,4 @@
-# BnF fr. 15573 ff. 379r–381v: French text as produced by the key (partial reading, v1.0 work)
+# BnF fr. 15573 ff. 379r–381v: French text as produced by the key (partial reading, version 0.3)
 
 Despatch in Matignon's Cipher-3, autumn 1586 (sender probably Matignon; addressed to the King).
 Images: Gallica `btv1b90618780` views 740–745, Source gallica.bnf.fr / BnF.

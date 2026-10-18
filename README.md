@@ -32,6 +32,8 @@ The readable stretches are a military report to the King on the Guyenne campaign
 
 ## Status of each page
 
+*Version 0.1 figures (three passes), kept for the record; the current per-page figures are in the version 0.3 table above.*
+
 All pages were read the same way: three reader passes, voted, then image-checked corrections. 127 lines and 2834 signs in all.
 
 | page | Gallica view | lines | signs | all three passes agree | corrections applied |
@@ -84,6 +86,8 @@ The key is **Satoshi Tomokiyo's reconstruction** of Matignon's Cipher-3, publish
 
 ## The method in plain words
 
+*This describes version 0.1; versions 0.2 and 0.3 add the steps listed in the section above.*
+
 1. **A letter with a known answer.** fr. 15572 ff. 277r–278r is in the same cipher and hand, and its decipherment made at the time survives (ff. 279r–280r). We read that decipherment by eye.
 2. **A reference sheet.** From f. 277r we cut a sheet of 50 sign shapes, 2–5 examples each, named by their look only (the names say nothing about meaning).
 3. **Claude reads the signs.** Each line was cut into pieces, and the pieces were shown to Claude (Anthropic, model Opus 5.5) under the reference sheet, with the instruction to name every sign from left to right. This was done three times with different cuts and magnifications.
@@ -96,6 +100,8 @@ The key is **Satoshi Tomokiyo's reconstruction** of Matignon's Cipher-3, publish
 Details are in [method/README.md](method/README.md).
 
 ## Measured numbers
+
+*These are the calibration measurements (on the known-answer letter, unchanged since version 0.1) and the version 0.1 controls; current per-page figures are in the version 0.3 table above.*
 
 **Reader calibrated on known text.** The reader was measured on fr. 15572 f. 278r, lines 12–18 (238 signs), against their contemporary decipherment on ff. 279–280. Nothing in the sheet or the key was tuned on these lines. The reference signs were read by eye and checked by decoding against the decipherment on f. 280r.
 
@@ -120,6 +126,8 @@ So the vote reads about **0.962 per sign (0.933 strict)** on known text: roughly
 The readings sit at 3.874–4.42 bits per letter with dictionary cover 0.8607–0.8964; the shuffled controls at 5.784–6.358 and 0.6742–0.78. The last fifth of each page, decoded on its own, reads like the rest. For comparison, the decipherment text of the calibration letter itself scores 2.65 bits per letter: the target pages read as French, but with many gaps.
 
 ## What is unresolved
+
+*For the current list see `reading/unresolved-v0.3.md`; the text below describes version 0.1.*
 
 - **Misread signs.** About one sign in twenty to thirty on known text, probably more on these pages. Stretches that match no dictionary word are shown in [brackets] in the Normalised text.
 - **Code signs not identified**: `x`, `oo`, `#`, `tri`, `excl`, `Lx2`, and the sign before *majesté* (probably *vostre*, an inference only). They print as `·`.

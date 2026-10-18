@@ -7,6 +7,8 @@
 - [v.] stands for a sign before *majesté* that is not in the key. It is probably a code for *vostre*, which is an inference only.
 - Status: partial reading (v0.3), work in progress.
 
+> The sections by page directly below are the version 0.1 translation, kept for the record. The current reading is in the section **Version 0.3** near the end. Square brackets mark words supplied or restored by us, not letters given by the key.
+
 ## f. 379r
 
 - (line 1) "… [so] that it may please [your] Majesty …"
@@ -87,7 +89,7 @@
 - (9) "… wrote that …"
 - (10) "… who has gone into Spain … speaks …"
 
-## v0.2 additions (18 Oct 2026; same rules, from the v0.2 Normalised text)
+## Version 0.2 additions (historical; superseded by version 0.3 below)
 
 These come from five reader passes, the page-level decoder and key revision 2 (# = i; the sign before *maieste* and *armee* read as *vostre*, by conjecture).
 
@@ -141,7 +143,7 @@ The despatch is a military report from Guyenne to the King in the autumn of 1586
 
 This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget gone to Mayenne at Bordeaux; Caumont; the Mas de Verdun; the Dordogne and Garonne). It fits Tomokiyo's attribution to Matignon's cipher. The sender's name does not appear in the readable stretches.
 
-## v1.0 work (stage E, 18 Oct 2026): what the new reading adds
+## Version 0.3 (18 Oct 2026): what the current reading adds (latest; read this section first)
 
 **This is a translation of readable stretches, not part of the reading.** The French literal and normalised text (`ff379-381-french.md`) is the reading. Line numbers are manuscript lines. Words in (brackets) are our filling of a gap; a "?" marks a doubtful word (see `unresolved-v10.md`).
 

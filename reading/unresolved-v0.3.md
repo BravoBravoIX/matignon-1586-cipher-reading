@@ -1,4 +1,4 @@
-# Unresolved stretches, v1.0 work (stage E)
+# Unresolved stretches, version 0.3
 
 Every run of signs that the page-level decoder did not place inside a dictionary word of three letters or more (or a listed short word), and every weak run (three or more decoded words in a row of two letters or fewer).
 Each was looked at on the image by the Claude agent (review sheets `~/cipher-hunter-data/workbench/fr15573/review/v10/`).
