@@ -1,0 +1,325 @@
+{
+ "name": "Matignon's Cipher-3 (as used in BnF fr. 15572 ff. 277-280 and fr. 15573 ff. 379-381)",
+ "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2",
+ "origins": {
+  "T": "Tomokiyo's published table (henryiii_Matignon3.png, cryptiana.web.fc2.com/code/henryiii.htm)",
+  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts)",
+  "E?": "EM, few occurrences (< 6) or split: doubtful"
+ },
+ "note": "Values are plaintext units; a list means the sign stands for any of them (homophones are separate signs; a list is a polyphone or a code with variants); \"\" = null. Nothing here was taken from anyone's modern reading of these letters.",
+ "key": {
+  "k": {
+   "values": [
+    "e"
+   ],
+   "origin": "T+E"
+  },
+  "u": {
+   "values": [
+    "e"
+   ],
+   "origin": "T+E"
+  },
+  "xi": {
+   "values": [
+    "e"
+   ],
+   "origin": "T+E"
+  },
+  "T": {
+   "values": [
+    "r"
+   ],
+   "origin": "T+E"
+  },
+  "F": {
+   "values": [
+    "r"
+   ],
+   "origin": "T+E"
+  },
+  "b": {
+   "values": [
+    "s"
+   ],
+   "origin": "T+E"
+  },
+  "ss": {
+   "values": [
+    "s"
+   ],
+   "origin": "E"
+  },
+  "Z": {
+   "values": [
+    "i"
+   ],
+   "origin": "T+E"
+  },
+  "th": {
+   "values": [
+    "i"
+   ],
+   "origin": "T+E"
+  },
+  "eta": {
+   "values": [
+    "a"
+   ],
+   "origin": "E"
+  },
+  "o": {
+   "values": [
+    "a"
+   ],
+   "origin": "T+E"
+  },
+  "p": {
+   "values": [
+    "a"
+   ],
+   "origin": "T+E"
+  },
+  "p+": {
+   "values": [
+    "a"
+   ],
+   "origin": "E?"
+  },
+  "y": {
+   "values": [
+    "t",
+    "n"
+   ],
+   "origin": "T+E"
+  },
+  "yv": {
+   "values": [
+    "n",
+    "t"
+   ],
+   "origin": "E"
+  },
+  "a": {
+   "values": [
+    "t"
+   ],
+   "origin": "T+E"
+  },
+  "57": {
+   "values": [
+    "u"
+   ],
+   "origin": "T+E"
+  },
+  "C": {
+   "values": [
+    "u"
+   ],
+   "origin": "T+E"
+  },
+  "9t": {
+   "values": [
+    "u"
+   ],
+   "origin": "T+E"
+  },
+  "mq": {
+   "values": [
+    "n"
+   ],
+   "origin": "T+E"
+  },
+  "2": {
+   "values": [
+    "c"
+   ],
+   "origin": "T+E"
+  },
+  "+": {
+   "values": [
+    "l"
+   ],
+   "origin": "T+E"
+  },
+  "q": {
+   "values": [
+    "l"
+   ],
+   "origin": "T+E?"
+  },
+  "ss^": {
+   "values": [
+    "ll"
+   ],
+   "origin": "E"
+  },
+  "30": {
+   "values": [
+    "m"
+   ],
+   "origin": "T+E"
+  },
+  "hook": {
+   "values": [
+    "m"
+   ],
+   "origin": "T+E?"
+  },
+  "S": {
+   "values": [
+    "o"
+   ],
+   "origin": "T+E"
+  },
+  "Lq": {
+   "values": [
+    "o"
+   ],
+   "origin": "E"
+  },
+  "Lr": {
+   "values": [
+    "o"
+   ],
+   "origin": "E"
+  },
+  "8": {
+   "values": [
+    "v",
+    "o"
+   ],
+   "origin": "E?"
+  },
+  "m": {
+   "values": [
+    "d"
+   ],
+   "origin": "T+E"
+  },
+  "L": {
+   "values": [
+    "d"
+   ],
+   "origin": "T+E"
+  },
+  "Lx": {
+   "values": [
+    "d"
+   ],
+   "origin": "E?"
+  },
+  "d": {
+   "values": [
+    "f"
+   ],
+   "origin": "T+E"
+  },
+  "alpha": {
+   "values": [
+    "f"
+   ],
+   "origin": "T"
+  },
+  "lambda": {
+   "values": [
+    "f"
+   ],
+   "origin": "T?+E?"
+  },
+  "g": {
+   "values": [
+    "p"
+   ],
+   "origin": "E"
+  },
+  "14": {
+   "values": [
+    "p"
+   ],
+   "origin": "T+E"
+  },
+  "23": {
+   "values": [
+    "g"
+   ],
+   "origin": "T+E"
+  },
+  "7": {
+   "values": [
+    "g"
+   ],
+   "origin": "T+E"
+  },
+  "19": {
+   "values": [
+    "h"
+   ],
+   "origin": "T+E?"
+  },
+  "longs": {
+   "values": [
+    "b"
+   ],
+   "origin": "T+E?"
+  },
+  "v": {
+   "values": [
+    "x"
+   ],
+   "origin": "T"
+  },
+  "B": {
+   "values": [
+    "de"
+   ],
+   "origin": "T+E"
+  },
+  "20": {
+   "values": [
+    "la"
+   ],
+   "origin": "T+E"
+  },
+  "18": {
+   "values": [
+    "le"
+   ],
+   "origin": "T+E"
+  },
+  "Cu": {
+   "values": [
+    "que"
+   ],
+   "origin": "T+E"
+  },
+  "dots": {
+   "values": [
+    "qui"
+   ],
+   "origin": "T+E"
+  },
+  "Lp": {
+   "values": [
+    "pour"
+   ],
+   "origin": "T+E?"
+  },
+  "///": {
+   "values": [
+    "et"
+   ],
+   "origin": "E"
+  }
+ },
+ "unknown": [
+  "x",
+  "oo",
+  "#",
+  "tri",
+  "excl",
+  "Lx2",
+  "word",
+  "?"
+ ]
+}

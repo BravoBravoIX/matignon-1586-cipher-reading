@@ -1,0 +1,35 @@
+{
+ "page": "BnF fr. 15573 f. 379r",
+ "how": "the page decoded exactly as the reading (same key, same word-level decoder with the period French lexicon); bits_per_letter under a period French 5-gram model (lower = more like French); dict_cover = share of letters inside dictionary words of the word decode; shuffled = the page's signs in random order, seeds 1-3; held_out_last_fifth = the last fifth of the page decoded on its own",
+ "signs": 503,
+ "reading": {
+  "letters": 524,
+  "dict_cover": 0.8607,
+  "bits_per_letter": 4.42
+ },
+ "shuffled_seed1": {
+  "letters": 524,
+  "dict_cover": 0.6832,
+  "bits_per_letter": 6.236
+ },
+ "shuffled_seed2": {
+  "letters": 524,
+  "dict_cover": 0.6908,
+  "bits_per_letter": 6.323
+ },
+ "shuffled_seed3": {
+  "letters": 524,
+  "dict_cover": 0.708,
+  "bits_per_letter": 6.257
+ },
+ "held_out_last_fifth": {
+  "letters": 91,
+  "dict_cover": 0.8571,
+  "bits_per_letter": 4.766
+ },
+ "first_four_fifths": {
+  "letters": 433,
+  "dict_cover": 0.8614,
+  "bits_per_letter": 4.356
+ }
+}

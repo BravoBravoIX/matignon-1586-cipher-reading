@@ -1,0 +1,24 @@
+# BnF fr. 15573 f. 381r (Gallica view 744): sign names as read (three passes voted, image-checked corrections applied), one manuscript line per row: line number, a tab, the signs. Names are those of the reference sheet (method/).
+0	yv xi eta C b k S 9t th + mq u yv p+ T Z u mq 23 /// Cu th
+1	u ss C th + Z k y F u b 19 9t hook longs k 30 u mq a d
+2	30 eta x k ss y u Cu a k B u hook k b xi Z eta y 2 k y u
+3	mq k L u hook u C F k th 30 14 9t 7 mq Z k 14 th q L k C
+4	k F B Z a eta 2 k b x u 19 L xi 9t + u S C th yv + u
+5	eta b u Z S k 30 Z + k b 2 9t 14 g k b a 2 19 8 ss k
+6	B b th 30 eta Lr eta Z ss u 2 Lr mq b k S C k yv 2 u Cu th
+7	Lq k mq p 9t y 7 eta mq x F o 2 dots d k T eta 18 ss k
+8	30 longs q p p+ + k u th k b 14 k F k u 9t 20 L Z ss^ # 7
+9	xi mq 2 u B 8 B 7 g Z F 23 9t k b th + d Lq Lr C F
+10	9t g # # eta th eta o 14 F k b u mq y xi hook k y a u ss y
+11	eta L C C excl y th Cu oo p m k ss q Z longs u + k B F eta
+12	hook k yv u F p+ 9t u 2 + C Lq eta b S yv T u a Lr C T B q o
+13	mq 7 9t k L g xi q u ss C B xi 19 eta b y th ss^ Lr
+14	L p+ mq m S ss b u Lr k ss 2 C p+ q B d Lr b ss p+ C k 2
+15	18 g + 9t b B d Lr F 2 k ss dots 14 g C # eta y p+ yv a B
+16	Lq # k L Cu B xi 19 k C eta q + k ss C B 2 eta b y k
+17	q mq p 9t + a /// 14 F eta p+ u q S mq y + u Z k 2 19 p xi C
+18	yv 9t mq 23 th T u 7 Z 30 u mq y xi yv longs u eta F mq p+ Lr
+19	Lr # k k y Cu C eta ss^ Lr xi k /// 2 u L S # longs Z u yv y
+20	th Lr Z mq L F u eta 9t xi th p+ C k 2 q k m Z y C oo
+21	Z + b alpha C mq y xi Lr C # u 18 p+ F C Z 2 y 30 eta th b
+22	2 u ss y xi 19 Lr b xi Cu th u mq k y Z k yv a eta xi k C T Lx

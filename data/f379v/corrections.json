@@ -1,0 +1,43 @@
+{
+ "page": "BnF fr. 15573 f. 379v",
+ "rule": "Correction pass, 18 Oct 2026, by Claude: proposals = the 10 positions per page where another pass's name lowers the line's word-decode cost most (code/propose.py); each proposal looked at on the straightened line image; applied only when the image shows the proposed sign. 60 proposals looked at (f. 381v's were void after its re-cut and are not applied), 25 applied, the rest rejected. Recurrent case: an 8-shaped o-sign (sheet S) that the readers named g.",
+ "recorded": "only the applied changes were saved one by one; the rejected proposals were not",
+ "applied": [
+  {
+   "line": 10,
+   "position": 11,
+   "old": "g",
+   "new": "S"
+  },
+  {
+   "line": 20,
+   "position": 13,
+   "old": "g",
+   "new": "8"
+  },
+  {
+   "line": 3,
+   "position": 14,
+   "old": "g",
+   "new": "S"
+  },
+  {
+   "line": 9,
+   "position": 10,
+   "old": "g",
+   "new": "S"
+  },
+  {
+   "line": 5,
+   "position": 15,
+   "old": "g",
+   "new": "S"
+  },
+  {
+   "line": 10,
+   "position": 20,
+   "old": "C",
+   "new": "xi"
+  }
+ ]
+}

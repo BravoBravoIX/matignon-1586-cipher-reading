@@ -1,0 +1,16 @@
+# Reference sign transcription of BnF fr. 15572 f. 278r lines 12-18 (held-out page), names of
+# sheet v2 (+ q v oo Lp Lx2; x = a sign on no row). Read by eye by Claude at about
+# 1.1x native size, sign by sign, 18 Oct 2026; checked by decoding against the contemporary
+# decipherment f. 280r (lines 6-11: "de larmee estant les rivieres de dordoigne et garonne
+# entre deux ne la arrestent et ce qui les y pourra convier davantage est quil est sur la
+# recolte et que beaucoup craindront perdre leurs fruictz si cela est il ne fault doubter que
+# les petites villes ne se perdent et les meilleures en grand branle iavois mande").
+# a|b = either name is accepted (the sign is ambiguous to the eye). Small interlinear letters
+# written above some signs on this page by a contemporary hand are not signs.
+12 T b B + eta T 30 Lx xi b a eta mq ss 18 b T Z 57 th k F u ss B m Z 57 T L S y|yv 23 mq k
+13 /// 23 eta T Lq|Lr B k u y|yv a T k xi 57 + v eta|mq k q|9t 57 S|d eta g Lq|Z T B y|yv y|yv x x
+14 xi a 2 k dots q k b oo|S Lp|Lq|longs T eta 2 S y|yv 57 Z k F m o 8 o y|yv a p|p+ Z 7 u k b y|yv Cu 2 u b y|yv
+15 b 57 T 20 T k 2 Lq|Lr + y|yv k /// Cu p|p+ k eta 57 2 Lq|Lr 9t 14 2 T o Z mq m T 8 mq y|yv u 14
+16 k T m F k + k 57 T b d T 9t th a 14|x x d|x b Z 2 u 20 k b y|yv th + mq k d eta 57 + y|yv
+17 m Lq|Lr 9t longs y|yv k F Cu 18 ss g k y|yv Z tri k b 9t|q|th b mq k b k 14 k T B mq a /// 18 ss 30 k Z ss^
+18 k 57 + u b k y|yv 23 T o mq L longs T eta mq p|p+ 18 x x mq th eta|u 57 Lq|Z Z b 30 eta|u y|yv B p|p+

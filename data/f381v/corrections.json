@@ -1,0 +1,6 @@
+{
+ "page": "BnF fr. 15573 f. 381v",
+ "rule": "Correction pass, 18 Oct 2026, by Claude: proposals = the 10 positions per page where another pass's name lowers the line's word-decode cost most (code/propose.py); each proposal looked at on the straightened line image; applied only when the image shows the proposed sign. 60 proposals looked at (f. 381v's were void after its re-cut and are not applied), 25 applied, the rest rejected. Recurrent case: an 8-shaped o-sign (sheet S) that the readers named g.",
+ "recorded": "only the applied changes were saved one by one; the rejected proposals were not",
+ "applied": []
+}

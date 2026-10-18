@@ -1,0 +1,415 @@
+{
+ "format": "polyphone-key/1",
+ "target": "BnF fr. 15573 f. 379v",
+ "key_revision": 1,
+ "tokenisation": {
+  "rule": "glyph-ids",
+  "params": {}
+ },
+ "plaintext_alphabet": "abcdefghilmnopqrstuvxyz",
+ "pipeline": [
+  {
+   "step": "substitution",
+   "id": "main",
+   "table": {
+    "k": {
+     "v": "e",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "u": {
+     "v": "e",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "xi": {
+     "v": "e",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "T": {
+     "v": "r",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "F": {
+     "v": "r",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "b": {
+     "v": "s",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "ss": {
+     "v": "s",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "Z": {
+     "v": "i",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "th": {
+     "v": "i",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "eta": {
+     "v": "a",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "o": {
+     "v": "a",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "p": {
+     "v": "a",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "p+": {
+     "v": "a",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin E?"
+    },
+    "y": {
+     "v": [
+      "t",
+      "n"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin T+E"
+    },
+    "yv": {
+     "v": [
+      "n",
+      "t"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin E"
+    },
+    "a": {
+     "v": "t",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "57": {
+     "v": "u",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "C": {
+     "v": "u",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "9t": {
+     "v": "u",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "mq": {
+     "v": "n",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "2": {
+     "v": "c",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "+": {
+     "v": "l",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "q": {
+     "v": "l",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin T+E?"
+    },
+    "ss^": {
+     "v": "ll",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "30": {
+     "v": "m",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "hook": {
+     "v": "m",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin T+E?"
+    },
+    "S": {
+     "v": "o",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "Lq": {
+     "v": "o",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "Lr": {
+     "v": "o",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "8": {
+     "v": [
+      "v",
+      "o"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin E?"
+    },
+    "m": {
+     "v": "d",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "L": {
+     "v": "d",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "Lx": {
+     "v": "d",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin E?"
+    },
+    "d": {
+     "v": "f",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "alpha": {
+     "v": "f",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T"
+    },
+    "lambda": {
+     "v": "f",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin T?+E?"
+    },
+    "g": {
+     "v": "p",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "14": {
+     "v": "p",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "23": {
+     "v": "g",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "7": {
+     "v": "g",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "19": {
+     "v": "h",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin T+E?"
+    },
+    "longs": {
+     "v": "b",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin T+E?"
+    },
+    "v": {
+     "v": "x",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T"
+    },
+    "B": {
+     "v": "de",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "20": {
+     "v": "la",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "18": {
+     "v": "le",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "Cu": {
+     "v": "que",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "dots": {
+     "v": "qui",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin T+E"
+    },
+    "Lp": {
+     "v": "pour",
+     "type": "word",
+     "conf": "probable",
+     "note": "origin T+E?"
+    },
+    "///": {
+     "v": "et",
+     "type": "syllable",
+     "conf": "sure",
+     "note": "origin E"
+    },
+    "x": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "oo": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "#": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "tri": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "excl": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "Lx2": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "word": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    },
+    "?": {
+     "v": null,
+     "type": "unknown",
+     "note": "sign with no value in the key (or not on the sheet)"
+    }
+   },
+   "choices": {
+    "y": [
+     "t",
+     "n",
+     "t",
+     "t",
+     "t",
+     "n",
+     "t",
+     "t",
+     "t",
+     "t",
+     "n",
+     "t",
+     "n",
+     "t",
+     "t",
+     "t",
+     "t",
+     "n",
+     "t",
+     "n",
+     "t",
+     "n",
+     "t",
+     "n"
+    ],
+    "yv": [
+     "t",
+     "t",
+     "n",
+     "n",
+     "n",
+     "t",
+     "n",
+     "t"
+    ],
+    "8": [
+     "o",
+     "o"
+    ]
+   },
+   "unknown_render": "[?{sym}]"
+  }
+ ],
+ "notes": "Matignon's Cipher-3. Values: Tomokiyo's published table (T) and EM alignment of our reading of fr. 15572 ff. 277r-278r with their contemporary decipherment ff. 279r-280r (E); see data/key-cipher3.json. Sign names are the visual names of reference sheet v2. Polyphone values per occurrence chosen by the word-level decoder with the period French lexicon and recorded here, so decryption is mechanical.",
+ "provenance": {
+  "origin": "archive",
+  "source": "Tomokiyo (cryptiana henryiii.htm, Matignon's Cipher-3) and the 1586 decipherment in BnF fr. 15572 ff. 279-280"
+ }
+}
