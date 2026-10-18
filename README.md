@@ -1,8 +1,8 @@
-# The Matignon cipher despatch of autumn 1586: a first full reading
+# The Matignon cipher despatch of autumn 1586: a first reading of the whole despatch
 
 **BnF, Français 15573, ff. 379r–381v.** A despatch of autumn 1586 written wholly in cipher, six pages, addressed to King Henri III and probably sent by Marshal Jacques de Matignon from Guyenne. It uses the cipher that Satoshi Tomokiyo calls **Matignon's Cipher-3**.
 
-> **First full reading, version 0.2 (18 October 2026), partial in places.** Version 0.1 was published earlier the same day.
+> **First reading of the whole despatch, version 0.2 (18 October 2026): work in progress, partial in places.** Every page is read; about 15 % of the signs are not yet resolved. Version 0.1 was published earlier the same day.
 >
 > **Satoshi Tomokiyo published the opening line earlier**, on his page of Henri III's ciphers, which lists this letter as undeciphered and gives Matignon's Cipher-3: <https://cryptiana.web.fc2.com/code/henryiii.htm>. His opening reads "a ce quil plaist [votre] majeste me commander lui donner advis pour lentre de [votre] arme…". **Our reading of the opening matches it** (*a ce [q]uil … maieste*), and it was made without using his text.
 >
