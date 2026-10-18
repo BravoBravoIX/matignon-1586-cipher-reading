@@ -24,7 +24,7 @@
 | f. 381r | 0.755 | 0.832 |
 | f. 381v | 0.722 | 0.810 |
 
-On this measure the calibration page, read at 0.96 per sign, scores 0.88, and even the true 1586 decipherment of the sister letter scores only 0.95–0.96 (the period dictionary lacks names and spellings), so these figures are a floor, not a percentage of the letter understood. About 15 % of the signs (211 short stretches) remain unresolved, mostly code signs for names, misread signs and two-valued signs; they are being worked on.
+On this measure the calibration page, read at 0.96 per sign, scores 0.88, and even the true 1586 decipherment of the sister letter scores only 0.95–0.96 (the period dictionary lacks names and spellings), so these figures are a floor, not a percentage of the letter understood. About 15 % of the signs (211 short stretches) remain unresolved, mostly code signs for names, misread signs and two-valued signs; every one is listed in [reading/unresolved-v0.2.md](reading/unresolved-v0.2.md); they are being worked on.
 
 ## What the despatch is about
 
