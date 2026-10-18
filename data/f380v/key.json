@@ -1,7 +1,7 @@
 {
  "format": "polyphone-key/1",
  "target": "BnF fr. 15573 f. 380v",
- "key_revision": 1,
+ "key_revision": 7,
  "tokenisation": {
   "rule": "glyph-ids",
   "params": {}
@@ -55,10 +55,13 @@
      "note": "origin E"
     },
     "Z": {
-     "v": "i",
-     "type": "letter",
-     "conf": "sure",
-     "note": "origin T+E"
+     "v": [
+      "i",
+      "y"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin T+E (i); y E? (5 of 69 on ff. 277r/278r)"
     },
     "th": {
      "v": "i",
@@ -181,10 +184,13 @@
      "note": "origin T+E"
     },
     "Lq": {
-     "v": "o",
-     "type": "letter",
-     "conf": "sure",
-     "note": "origin E"
+     "v": [
+      "o",
+      "y"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin E (o 13, y 6 on ff. 277r/278r; f. 277v l. 29 'luy')"
     },
     "Lr": {
      "v": "o",
@@ -214,10 +220,14 @@
      "note": "origin T+E"
     },
     "Lx": {
-     "v": "d",
-     "type": "letter",
+     "v": [
+      "d",
+      "e",
+      "ee"
+     ],
+     "type": "polyphone",
      "conf": "probable",
-     "note": "origin E?"
+     "note": "origin E (d 5, ee 4, e 3 on ff. 277r/278r)"
     },
     "d": {
      "v": [
@@ -271,10 +281,13 @@
      "note": "origin T+E?"
     },
     "longs": {
-     "v": "b",
-     "type": "letter",
+     "v": [
+      "b",
+      "bl"
+     ],
+     "type": "polyphone",
      "conf": "probable",
-     "note": "origin T+E?"
+     "note": "origin T (b = long s; the sheet's longs is a long s joined to +, l) + E (b 3, br 1)"
     },
     "v": {
      "v": "x",
@@ -325,32 +338,75 @@
      "note": "origin E"
     },
     "#": {
-     "v": "i",
-     "type": "letter",
-     "conf": "sure",
-     "note": "origin T+E (Tomokiyo's i column has this crossed sign; EM 3 of 5 on the calibration letter; in the target it stands where i is wanted, e.g. pres#dent, ma#este)"
-    },
-    "x": {
-     "v": null,
-     "type": "unknown",
-     "note": "sign with no value in the key (or not on the sheet)"
+     "v": [
+      "i",
+      "r"
+     ],
+     "type": "polyphone",
+     "conf": "probable",
+     "note": "origin i: E (3 of 5 on f. 277r; target pres#dent, ma#este); r: T (Tomokiyo's r column, row 6) + E (rr once)"
     },
     "oo": {
-     "v": null,
-     "type": "unknown",
-     "note": "sign with no value in the key (or not on the sheet)"
+     "v": "y",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin E? (y 2 of 6 on ff. 277r/278r)"
     },
     "tri": {
-     "v": null,
-     "type": "unknown",
-     "note": "sign with no value in the key (or not on the sheet)"
+     "v": "t",
+     "type": "letter",
+     "conf": "probable",
+     "note": "origin E? (t 1 of 1 on f. 277r; f. 277v l. 32 'batterie')"
     },
     "excl": {
-     "v": null,
-     "type": "unknown",
-     "note": "sign with no value in the key (or not on the sheet)"
+     "v": "qui",
+     "type": "syllable",
+     "conf": "probable",
+     "note": "origin E? (f. 277v l. 16 'les suisses qui sont'; a variant of dots)"
+    },
+    "Bn": {
+     "v": "n",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo n column, row 6); class split from B on the image"
+    },
+    "eps": {
+     "v": "c",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo c column, row 2); class split from xi on the image"
+    },
+    "z3": {
+     "v": "m",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo m column, row 6); class split from 9t on the image"
+    },
+    "60": {
+     "v": "faire",
+     "type": "word",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo code row: faire = 60)"
     },
     "Lx2": {
+     "v": "uu",
+     "type": "syllable",
+     "conf": "probable",
+     "note": "origin E? (uu 1, uuermons 1 on f. 277r)"
+    },
+    "Sq": {
+     "v": "q",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo's q column: an S/5 on a swash, drawn grey there); class split on the image from S, g, Lq, Lr"
+    },
+    "4": {
+     "v": "s",
+     "type": "letter",
+     "conf": "sure",
+     "note": "origin T (Tomokiyo's s column: a plain 4); class split from 14 on the image"
+    },
+    "x": {
      "v": null,
      "type": "unknown",
      "note": "sign with no value in the key (or not on the sheet)"
@@ -367,6 +423,25 @@
     }
    },
    "choices": {
+    "Z": [
+     "i",
+     "i",
+     "i",
+     "i",
+     "y",
+     "i",
+     "i",
+     "i",
+     "i",
+     "i",
+     "i",
+     "i",
+     "i",
+     "i",
+     "y",
+     "i",
+     "i"
+    ],
     "d": [
      "f",
      "vostre",
@@ -382,45 +457,62 @@
      "t",
      "n",
      "t",
-     "n",
-     "n",
-     "t",
-     "t",
-     "t",
-     "t",
-     "t",
-     "t",
-     "t",
-     "t",
      "t",
      "t",
      "n",
      "t",
      "t",
-     "n",
+     "t",
+     "t",
+     "t",
+     "t",
+     "t",
      "t",
      "n",
      "t",
      "t",
      "t",
      "t",
+     "n",
      "t",
      "t",
+     "t",
+     "t",
+     "t",
+     "n",
+     "t",
+     "n",
+     "t"
+    ],
+    "yv": [
+     "n",
+     "n",
+     "n",
+     "t",
+     "n",
+     "n",
+     "t",
+     "n",
      "t",
      "n"
     ],
-    "yv": [
-     "t",
-     "t",
-     "n",
-     "n",
-     "t",
-     "n",
-     "n",
-     "t",
-     "n",
-     "n",
-     "t"
+    "Lq": [
+     "y",
+     "o",
+     "y",
+     "y"
+    ],
+    "#": [
+     "i",
+     "r",
+     "i",
+     "r",
+     "i",
+     "i",
+     "i"
+    ],
+    "longs": [
+     "b"
     ],
     "8": [
      "o"

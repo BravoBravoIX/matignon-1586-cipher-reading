@@ -2,29 +2,29 @@
 
 **BnF, Français 15573, ff. 379r–381v.** A despatch of autumn 1586 written wholly in cipher, six pages, addressed to King Henri III and probably sent by Marshal Jacques de Matignon from Guyenne. It uses the cipher that Satoshi Tomokiyo calls **Matignon's Cipher-3**.
 
-> **First reading of the whole despatch, version 0.2 (18 October 2026): work in progress, partial in places.** Every page is read; about 15 % of the signs are not yet resolved. Version 0.1 was published earlier the same day.
+> **First reading of the whole despatch, version 0.3 (18 October 2026): work in progress, partial in places.** Every page is read; the remaining gaps are listed with their causes. Versions 0.1 and 0.2 were published earlier the same day.
 >
 > **Satoshi Tomokiyo published the opening line earlier**, on his page of Henri III's ciphers, which lists this letter as undeciphered and gives Matignon's Cipher-3: <https://cryptiana.web.fc2.com/code/henryiii.htm>. His opening reads "a ce quil plaist [votre] majeste me commander lui donner advis pour lentre de [votre] arme…". **Our reading of the opening matches it** (*a ce [q]uil … maieste*), and it was made without using his text.
 >
 > Beyond that line, as far as our search found (see [PRIOR-ART.md](PRIOR-ART.md)), no reading of these pages has been published. Updates will follow.
 
-## What changed in version 0.2
+## What changed in versions 0.2 and 0.3
 
-- Every target page now has **five reader passes**, voted per sign (v0.1 had three), with the 25 image-checked corrections re-applied, and doubtful stretches re-read at a larger scale.
-- The decoder now works on a whole page at a time, so words run across line ends, and chooses the letter of each two-valued sign by whole French words; every choice is recorded in the key files.
-- Key revision 2: the sign `#` = i (Tomokiyo's table and the calibration letter); the sign before *maieste* and *armee* may stand for *vostre* (a conjecture from context, flagged in `data/key-cipher3.json`). With it the opening runs close to the first line Tomokiyo published.
-- Share of signs that fall inside French words (dictionary words of three or more letters), v0.1 → v0.2; the same signs shuffled score 0.55–0.67:
+- **0.2:** five reader passes voted per sign (0.1 had three); the decoder works on a whole page and chooses the letter of each two-valued sign by whole French words; key revision 2.
+- **0.3:** sign shapes that the reference sheet had merged were split on the image, following Tomokiyo's table (each change needed two agreeing reader answers and a look at the crop); key revision 7, values added only from aligned occurrences in the 1586 decipherments (fr. 15572 ff. 279-280) or Tomokiyo's table, doubtful values flagged; four correction rounds decided on the image (34 changes kept, 72 proposed changes rejected); 164 period place names, persons and words added to the lexicon, each tagged by source (`data/lexicon-additions.tsv`; ten were added after the text suggested them and are tagged so).
 
-| page | v0.1 | v0.2 |
-|---|---|---|
-| f. 379r | 0.734 | 0.861 |
-| f. 379v | 0.779 | 0.864 |
-| f. 380r | 0.726 | 0.839 |
-| f. 380v | 0.780 | 0.885 |
-| f. 381r | 0.755 | 0.832 |
-| f. 381v | 0.722 | 0.810 |
+Share of signs that fall inside French words, per page; the known-answer page (fr. 15572 f. 278r, read and decoded the same way) scores 0.904, and the same signs shuffled score 0.59-0.70:
 
-On this measure the calibration page, read at 0.96 per sign, scores 0.88, and even the true 1586 decipherment of the sister letter scores only 0.95–0.96 (the period dictionary lacks names and spellings), so these figures are a floor, not a percentage of the letter understood. About 15 % of the signs (211 short stretches) remain unresolved, mostly code signs for names, misread signs and two-valued signs; every one is listed in [reading/unresolved-v0.2.md](reading/unresolved-v0.2.md); they are being worked on.
+| page | v0.1 | v0.2 | v0.3 |
+|---|---|---|---|
+| f. 379r | 0.734 | 0.861 | 0.950 |
+| f. 379v | 0.779 | 0.864 | 0.902 |
+| f. 380r | 0.726 | 0.839 | 0.898 |
+| f. 380v | 0.780 | 0.885 | 0.923 |
+| f. 381r | 0.755 | 0.832 | 0.899 |
+| f. 381v | 0.722 | 0.810 | 0.915 |
+
+131 items remain (`reading/unresolved-v0.3.md`): 97 explained (code sign 18, damage 25, doubtful word 50, reader doubt 4) and 34 runs of clear signs not yet read; seven code signs are still unknown. Next: align further deciphered Cipher-3 letters listed by Tomokiyo to learn the remaining code signs.
 
 ## What the despatch is about
 
@@ -32,12 +32,12 @@ The readable stretches are a military report to the King on the Guyenne campaign
 
 ## Status of each page
 
-All pages were read the same way: three reader passes, voted, then image-checked corrections. 127 lines and 2837 signs in all.
+All pages were read the same way: three reader passes, voted, then image-checked corrections. 127 lines and 2834 signs in all.
 
-| page | Gallica view | lines | signs | first three passes agree (v0.1; v0.2 adds two more) | corrections applied |
+| page | Gallica view | lines | signs | all three passes agree | corrections applied |
 |---|---|---|---|---|---|
 | f. 379r | 740 | 22 | 503 | 0.7913 | 3 |
-| f. 379v | 741 | 23 | 493 | 0.8174 | 6 |
+| f. 379v | 741 | 23 | 490 | 0.8174 | 6 |
 | f. 380r | 742 | 22 | 492 | 0.811 | 5 |
 | f. 380v | 743 | 24 | 531 | 0.7665 | 5 |
 | f. 381r | 744 | 23 | 523 | 0.8184 | 6 |
@@ -102,16 +102,16 @@ Details are in [method/README.md](method/README.md).
 | reader | sign accuracy (either name accepted where the eye cannot choose) |
 |---|---|
 | pass a / b / c | 0.9538 / 0.9454 / 0.9244 |
-| **vote of the three passes (calibration letter)** | **0.962** (0.933 strict, counting only the first accepted name) |
+| **vote of the three passes** | **0.962** (0.933 strict, counting only the first accepted name) |
 
-So the vote reads about **0.962 per sign (0.933 strict)** on known text: roughly one sign in twenty to thirty is wrong. On the target pages the first three passes agree less often (v0.2 adds two more passes, voted) (0.7665–0.8184 of positions, against 0.87 on the calibration page), so the error rate there is probably higher than on the calibration page.
+So the vote reads about **0.962 per sign (0.933 strict)** on known text: roughly one sign in twenty to thirty is wrong. On the target pages the three passes agree less often (0.7665–0.8184 of positions, against 0.87 on the calibration page), so the error rate there is probably higher than on the calibration page.
 
 **Controls** (bits per letter under a period French 5-gram model, lower = more like French; dictionary cover = share of letters inside dictionary words of the word decode):
 
 | page | signs | bits/letter, reading | bits/letter, shuffled seeds 1 / 2 / 3 | dict cover, reading | dict cover, shuffled 1 / 2 / 3 | held-out last fifth (bits / cover) |
 |---|---|---|---|---|---|---|
 | f. 379r | 503 | 4.42 | 6.236 / 6.323 / 6.257 | 0.8607 | 0.6832 / 0.6908 / 0.708 | 4.766 / 0.8571 |
-| f. 379v | 493 | 3.874 | 6.024 / 6.358 / 6.261 | 0.8864 | 0.7121 / 0.7045 / 0.6742 | 3.359 / 0.9405 |
+| f. 379v | 490 | 3.874 | 6.024 / 6.358 / 6.261 | 0.8864 | 0.7121 / 0.7045 / 0.6742 | 3.359 / 0.9405 |
 | f. 380r | 492 | 4.024 | 6.093 / 5.912 / 5.797 | 0.8863 | 0.7216 / 0.7294 / 0.7235 | 3.522 / 0.9341 |
 | f. 380v | 531 | 4.088 | 5.915 / 5.796 / 5.958 | 0.8741 | 0.6976 / 0.7308 / 0.7255 | 4.321 / 0.8557 |
 | f. 381r | 523 | 4.04 | 5.823 / 5.784 / 6.096 | 0.8964 | 0.78 / 0.7545 / 0.7127 | 3.698 / 0.8438 |
@@ -127,7 +127,7 @@ The readings sit at 3.874–4.42 bits per letter with dictionary cover 0.8607–
 - **No palaeographer has checked it.** The English gist is Claude's, from our Normalised French; it is not literal plaintext.
 - Line numbers of f. 381v run from 0 in `data/f381v/` (as in our working records) and from 1 in `reading/ff379-381-french.md`.
 
-This is version 0.2. **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
+This is version 0.3. **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
 
 ## Prior art
 
@@ -144,18 +144,18 @@ sh decode/check.sh
 Expected output:
 
 ```
-f379r stream: identical to data/f379r/plaintext.txt (575 bytes)
-f379r by-line: identical to data/f379r/plaintext-by-line.txt (682 bytes)
-f379v stream: identical to data/f379v/plaintext.txt (586 bytes)
-f379v by-line: identical to data/f379v/plaintext-by-line.txt (688 bytes)
-f380r stream: identical to data/f380r/plaintext.txt (575 bytes)
-f380r by-line: identical to data/f380r/plaintext-by-line.txt (662 bytes)
-f380v stream: identical to data/f380v/plaintext.txt (604 bytes)
-f380v by-line: identical to data/f380v/plaintext-by-line.txt (714 bytes)
-f381r stream: identical to data/f381r/plaintext.txt (593 bytes)
-f381r by-line: identical to data/f381r/plaintext-by-line.txt (694 bytes)
-f381v stream: identical to data/f381v/plaintext.txt (338 bytes)
-f381v by-line: identical to data/f381v/plaintext-by-line.txt (389 bytes)
+f379r stream: identical to data/f379r/plaintext.txt (576 bytes)
+f379r by-line: identical to data/f379r/plaintext-by-line.txt (683 bytes)
+f379v stream: identical to data/f379v/plaintext.txt (575 bytes)
+f379v by-line: identical to data/f379v/plaintext-by-line.txt (683 bytes)
+f380r stream: identical to data/f380r/plaintext.txt (562 bytes)
+f380r by-line: identical to data/f380r/plaintext-by-line.txt (663 bytes)
+f380v stream: identical to data/f380v/plaintext.txt (593 bytes)
+f380v by-line: identical to data/f380v/plaintext-by-line.txt (710 bytes)
+f381r stream: identical to data/f381r/plaintext.txt (578 bytes)
+f381r by-line: identical to data/f381r/plaintext-by-line.txt (692 bytes)
+f381v stream: identical to data/f381v/plaintext.txt (326 bytes)
+f381v by-line: identical to data/f381v/plaintext-by-line.txt (388 bytes)
 all pages reproduced exactly
 ```
 

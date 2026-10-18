@@ -5,7 +5,7 @@
 - Spelling is modernised in the reading of each phrase.
 - Phrases are in page order but not joined into sentences where the gaps are long.
 - [v.] stands for a sign before *majesté* that is not in the key. It is probably a code for *vostre*, which is an inference only.
-- Status: partial reading (v0.2), work in progress.
+- Status: partial reading (v0.3), work in progress.
 
 ## f. 379r
 
@@ -140,3 +140,61 @@ The despatch is a military report from Guyenne to the King in the autumn of 1586
 - the army's movements, artillery and regiments, the King's service.
 
 This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget gone to Mayenne at Bordeaux; Caumont; the Mas de Verdun; the Dordogne and Garonne). It fits Tomokiyo's attribution to Matignon's cipher. The sender's name does not appear in the readable stretches.
+
+## v1.0 work (stage E, 18 Oct 2026): what the new reading adds
+
+**This is a translation of readable stretches, not part of the reading.** The French literal and normalised text (`ff379-381-french.md`) is the reading. Line numbers are manuscript lines. Words in (brackets) are our filling of a gap; a "?" marks a doubtful word (see `unresolved-v10.md`).
+
+- **f. 379r** (the opening; agrees with Tomokiyo's published first line):
+  - (1–3) "…as it pleases your Majesty [to command] me to give advice for the entry of your army…";
+  - (3–5) "…the season, which is close to winter, and there is nothing so inconvenient (incomode?)…";
+  - (5–7) "…as the country and the places which are on the river of Garonne between Toulouse (and Bordeaux?)…";
+  - (8–11) "…from which those of the (new?) religion draw great tolls (daces) on the merchandise…";
+  - (12–13) "…if it pleases him, what they have imposed at Sainte-(Ba)zeille (?)…";
+  - (16–18) "…at Caumont and at the Mas de Verdun, (they) prevent the traffic and commerce…";
+  - (19–22) "…the revenue of the comptablie and convoy (the Bordeaux customs), which are the clearest moneys of which your Majesty can make account…".
+- **f. 379v:**
+  - "…it will be more to the purpose…";
+  - "…the relief of your subjects…";
+  - "…of the religion…";
+  - "…your service, rather than to go and attack a strong place where the siege could not be so long…";
+  - "…all that your army…";
+  - "…holds in suspense the places of …, on one side and on the other, Bergerac (?), Sainte-Foy (?) …, Castillon".
+- **f. 380r:**
+  - "(I) send to (Monsieur?) de Villeroy a … which one of his friends sent me, and asks not to be discovered…";
+  - "…prejudicial to your service…";
+  - "…I judge that your Majesty could recognise…";
+  - "…the negotiation…";
+  - "…the President…";
+  - "…disposed to take his part…";
+  - "…the rumour (bruit?) is that…";
+  - "…to profit…".
+- **f. 380v:**
+  - "…the forces are along the river Isle, and live where they can, and continue their fortifications, as I have advised…";
+  - "…the regard of Agen (?)…";
+  - "…very few means…";
+  - "…the armies (armyes?) had…";
+  - "…at Marmande, but…";
+  - "…excused himself to your (sister?)…";
+  - "…five…".
+- **f. 381r:**
+  - "…very humbly your Majesty…";
+  - "…not remain unpunished…";
+  - "…crowns (escus)…";
+  - "…and the diligence…";
+  - "…at present…";
+  - "…to bring back with him on his return from Languedoc…";
+  - "…with the most forces that he could, as many foot as horse…";
+  - "…Castelnau (?)…";
+  - "…each a regiment, and Béarn…";
+  - "…they must join…".
+- **f. 381v:**
+  - "…they bring out the artillery … with two pieces…";
+  - "…at present wrote that it is Duras (?) who has gone to Spain to speak to the King (of Spain) and…";
+  - "…I believe that it is to seek means of…".
+
+**New names read in the cipher (doubtful where marked):**
+- places: Garonne, Toulouse, Sainte-Bazeille (?), Caumont, the Mas de Verdun, the Isle, Agen (?), Marmande, Bergerac (?), Sainte-Foy (?), Castillon, Castelnau (?), Languedoc, Béarn, Spain;
+- persons and offices: Villeroy (?), the President, Duras (?).
+
+The names without (?) are what the key gives for the signs as read; the lexicon only chose between a sign's listed values. The names with (?) are Claude's proposed readings of stretches where one or two signs do not give the letters; they are listed as doubtful words in `unresolved-v10.md` and are not in the French literal.

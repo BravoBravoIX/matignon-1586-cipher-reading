@@ -1,9 +1,9 @@
 {
  "name": "Matignon's Cipher-3 (as used in BnF fr. 15572 ff. 277-280 and fr. 15573 ff. 379-381)",
- "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2",
+ "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2; stage E adds Bn, eps, z3 (split from B, xi, 9t on the image) 60, Sq and 4",
  "origins": {
   "T": "Tomokiyo's published table (henryiii_Matignon3.png, cryptiana.web.fc2.com/code/henryiii.htm)",
-  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts)",
+  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts); stage E adds f. 277v aligned by eye with f. 279v",
   "E?": "EM, few occurrences (< 6) or split: doubtful",
   "C?": "conjecture from context in the target itself (a code value); doubtful, listed for checking"
  },
@@ -53,9 +53,10 @@
   },
   "Z": {
    "values": [
-    "i"
+    "i",
+    "y"
    ],
-   "origin": "T+E"
+   "origin": "T+E (i); y E? (5 of 69 on ff. 277r/278r)"
   },
   "th": {
    "values": [
@@ -175,9 +176,10 @@
   },
   "Lq": {
    "values": [
-    "o"
+    "o",
+    "y"
    ],
-   "origin": "E"
+   "origin": "E (o 13, y 6 on ff. 277r/278r; f. 277v l. 29 'luy')"
   },
   "Lr": {
    "values": [
@@ -206,9 +208,11 @@
   },
   "Lx": {
    "values": [
-    "d"
+    "d",
+    "e",
+    "ee"
    ],
-   "origin": "E?"
+   "origin": "E (d 5, ee 4, e 3 on ff. 277r/278r)"
   },
   "d": {
    "values": [
@@ -261,9 +265,10 @@
   },
   "longs": {
    "values": [
-    "b"
+    "b",
+    "bl"
    ],
-   "origin": "T+E?"
+   "origin": "T (b = long s; the sheet's longs is a long s joined to +, l) + E (b 3, br 1)"
   },
   "v": {
    "values": [
@@ -315,20 +320,77 @@
   },
   "#": {
    "values": [
-    "i"
+    "i",
+    "r"
    ],
-   "origin": "T+E (Tomokiyo's i column has this crossed sign; EM 3 of 5 on the calibration letter; in the target it stands where i is wanted, e.g. pres#dent, ma#este)"
+   "origin": "i: E (3 of 5 on f. 277r; target pres#dent, ma#este); r: T (Tomokiyo's r column, row 6) + E (rr once)"
+  },
+  "oo": {
+   "values": [
+    "y"
+   ],
+   "origin": "E? (y 2 of 6 on ff. 277r/278r)"
+  },
+  "tri": {
+   "values": [
+    "t"
+   ],
+   "origin": "E? (t 1 of 1 on f. 277r; f. 277v l. 32 'batterie')"
+  },
+  "excl": {
+   "values": [
+    "qui"
+   ],
+   "origin": "E? (f. 277v l. 16 'les suisses qui sont'; a variant of dots)"
+  },
+  "Bn": {
+   "values": [
+    "n"
+   ],
+   "origin": "T (Tomokiyo n column, row 6); class split from B on the image"
+  },
+  "eps": {
+   "values": [
+    "c"
+   ],
+   "origin": "T (Tomokiyo c column, row 2); class split from xi on the image"
+  },
+  "z3": {
+   "values": [
+    "m"
+   ],
+   "origin": "T (Tomokiyo m column, row 6); class split from 9t on the image"
+  },
+  "60": {
+   "values": [
+    "faire"
+   ],
+   "origin": "T (Tomokiyo code row: faire = 60)"
+  },
+  "Lx2": {
+   "values": [
+    "uu"
+   ],
+   "origin": "E? (uu 1, uuermons 1 on f. 277r)"
+  },
+  "Sq": {
+   "values": [
+    "q"
+   ],
+   "origin": "T (Tomokiyo's q column: an S/5 on a swash, drawn grey there); class split on the image from S, g, Lq, Lr"
+  },
+  "4": {
+   "values": [
+    "s"
+   ],
+   "origin": "T (Tomokiyo's s column: a plain 4); class split from 14 on the image"
   }
  },
  "unknown": [
   "x",
-  "oo",
-  "tri",
-  "excl",
-  "Lx2",
   "word",
   "?"
  ],
- "revision": 2,
- "revision_note": "18 Oct 2026: # = i added; d may be 'vostre' (C?)."
+ "revision": 7,
+ "revision_note": "18 Oct 2026 (stage E): 4 = s (T), the plain 4 told apart from 14 on the image."
 }
