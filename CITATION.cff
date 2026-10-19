@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Matignon cipher despatch of autumn 1586 (BnF fr. 15573 ff. 379-381): a first reading of the whole despatch"
+authors:
+  - family-names: Burford
+    given-names: Brett
+version: "0.5"
+doi: 10.5281/zenodo.23470959
+date-released: 2026-10-19
+repository-code: "https://github.com/BravoBravoIX/matignon-1586-cipher-reading"
