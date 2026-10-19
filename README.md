@@ -1,5 +1,7 @@
 # The Matignon cipher despatch of autumn 1586: a first reading of the whole despatch
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470959.svg)](https://doi.org/10.5281/zenodo.23470959)
+
 **BnF, Français 15573, ff. 379r–381v.** A despatch of autumn 1586 written wholly in cipher, six pages, addressed to King Henri III and probably sent by Marshal Jacques de Matignon from Guyenne. It uses the cipher that Satoshi Tomokiyo calls **Matignon's Cipher-3**.
 
 > **First reading of the whole despatch, version 0.5 (19 October 2026): near-complete.** Every page is read; 5 short stretches and 5 rare code signs remain open, all listed with their causes. Versions 0.1-0.3 were published on 18 October 2026, 0.4 on 19 October.
@@ -195,3 +197,7 @@ Prepared by Brett Burford, October 2026.
 - Text and data (everything except `decode/`, `method/score_heldout.py` and the images noted below): [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0).
 - `decode/` and `method/score_heldout.py`: [MIT licence](decode/LICENSE).
 - The image in `method/` (`sheet-v2.png`) is made of crops of BnF, Français 15572, f. 277r, from Gallica. It is not covered by CC BY: Gallica's terms allow free non-commercial reuse with the source line "Source gallica.bnf.fr / BnF"; commercial reuse needs the BnF's permission.
+
+## How to cite
+
+Burford, B. (2026). The Matignon cipher despatch of autumn 1586 (BnF fr. 15573 ff. 379-381): a first reading of the whole despatch. Zenodo. https://doi.org/10.5281/zenodo.23470959 (this DOI always points to the latest version; each release has its own version DOI on Zenodo).
