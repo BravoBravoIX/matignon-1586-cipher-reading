@@ -1,6 +1,6 @@
 # BnF fr. 15572 f. 279r (Gallica btv1b9061879d view 289, right page): contemporary decipherment
-# of the cipher letter ff. 277r-278r (Matignon's Cipher-3). Read by eye by Claude,
-# 18 Oct 2026, from the BnF IIIF image (Source gallica.bnf.fr / BnF). Spelling as written,
+# of the cipher letter ff. 277r-278r (Matignon's Cipher-3). Read by
+# Claude, 18 Oct 2026, from the BnF IIIF image (Source gallica.bnf.fr / BnF). Spelling as written,
 # abbreviations expanded silently (po = pour, q = que), apostrophes and accents dropped.
 # [?] after a word = doubtful reading. One manuscript line per text line.
 monsieur forget sest alle trouver monsieur du mayne a bourdeaux

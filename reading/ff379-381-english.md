@@ -197,7 +197,7 @@ This is the same theatre as the sister letter fr. 15572 ff. 277–280 (Forget go
 - places: Garonne, Toulouse, Sainte-Bazeille (?), Caumont, the Mas de Verdun, the Isle, Agen (?), Marmande, Bergerac (?), Sainte-Foy (?), Castillon, Castelnau (?), Languedoc, Béarn, Spain;
 - persons and offices: Villeroy (?), the President, Duras (?).
 
-The names without (?) are what the key gives for the signs as read; the lexicon only chose between a sign's listed values. The names with (?) are Claude's proposed readings of stretches where one or two signs do not give the letters; they are listed as doubtful words in `unresolved-v10.md` and are not in the French literal.
+The names without (?) are what the key gives for the signs as read; the lexicon only chose between a sign's listed values. The names with (?) are readings proposed by Claude for stretches where one or two signs do not give the letters; they are listed as doubtful words in `unresolved-v10.md` and are not in the French literal.
 
 ## version 0.5: what the new values add
 
@@ -239,7 +239,7 @@ The names without (?) are what the key gives for the signs as read; the lexicon 
 **This is a translation of readable stretches, not part of the reading.**
 - The key is unchanged (revision 9). Five sign changes were kept, each chosen by two blind reader asks and checked on the image (`stageG-verified.json`). Two of them are signs at a line end that every reader pass had left out.
 - Two period forms were added to the lexicon, marked as prompted by the target: *comencer* and *acheminast*.
-- Line numbers are manuscript lines. A "?" marks a doubtful word. Readings below marked "(proposed)" come from the agent's notes in `unresolved-v10.md`: the decoder does not accept them.
+- Line numbers are manuscript lines. A "?" marks a doubtful word. Readings below marked "(proposed)" come from Claude's notes in `unresolved-v10.md`: the decoder does not accept them.
 
 - **f. 379v:**
   - (1–4) "…it seems to me it would be more to the purpose to begin (*comencer*) there, to clear (*nettoyer*, proposed) the said river (proposed), as much for the relief of your subjects as to take … from those of the religion, and to have [them] for your service, sooner than to go and attack a strong place where the siege could not be so short…";

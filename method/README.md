@@ -8,17 +8,17 @@ Matignon's Cipher-3, as reconstructed by Satoshi Tomokiyo (<https://cryptiana.we
 
 ## Step 1: a letter with a known answer
 
-BnF fr. 15572 ff. 277r–278r is a letter in the same cipher and the same spaced hand; its decipherment made at the time is on ff. 279r–280r. Claude read ff. 279r and 280r by eye ([../data/known-text/](../data/known-text/)). f. 279v was not read. No modern reading of these leaves was used.
+BnF fr. 15572 ff. 277r–278r is a letter in the same cipher and the same spaced hand; its decipherment made at the time is on ff. 279r–280r. Claude read ff. 279r and 280r from the image ([../data/known-text/](../data/known-text/)). f. 279v was not read. No modern reading of these leaves was used.
 
 ## Step 2: the reference sheet and the key check
 
-The signs of f. 277r were cut out by code (deskew, line tracking, connected components), grouped by shape (k-means), and the groups named by eye. The reference sheet [sheet-v2.png](sheet-v2.png) has 50 visual names with 2–5 examples each, all cut from f. 277r ([sheet-v2.json](sheet-v2.json) lists the names and the example indices). The names are labels for shapes only; the reader is never told the values.
+The signs of f. 277r were cut out by code (deskew, line tracking, connected components), grouped by shape (k-means), and the groups named by Claude from the images. The reference sheet [sheet-v2.png](sheet-v2.png) has 50 visual names with 2–5 examples each, all cut from f. 277r ([sheet-v2.json](sheet-v2.json) lists the names and the example indices). The names are labels for shapes only; the reader is never told the values.
 
 A first reader pass over f. 277r (and f. 278r) was aligned by code with the decipherment (soft EM alignment, units of up to 8 letters). The values it gives ([../data/known-text/em-key-v2.json](../data/known-text/em-key-v2.json)) agree with Tomokiyo's published table on every frequent sign compared. On the f. 277r re-read, two reader calls ended in a refusal; those lines (28–32) were left out of the alignment.
 
 ## Step 3: Claude reads the signs
 
-Each manuscript line was straightened and cut into pieces. The pieces were shown to Claude (model `claude-opus-5-5`, effort low, 12 pieces per call) under the reference sheet, with the instruction to name every sign from left to right. The prompt is in [prompt.txt](prompt.txt). The answers were treated as data only and parsed into sign names. Three passes were made with different cuts and magnifications (see `passes` in `../data/<page>/reading.json`).
+Each manuscript line was straightened and cut into pieces. The pieces were shown to Claude (model `claude-opus-5-5`, effort low, 12 pieces per call) under the reference sheet, with the instruction to name every sign from left to right. The answers were treated as data only and parsed into sign names. Three passes were made with different cuts and magnifications (see `passes` in `../data/<page>/reading.json`).
 
 ## Step 4: the vote
 
@@ -38,7 +38,7 @@ The Normalised text in `../reading/ff379-381-french.md` adds word breaks by the 
 
 ## Measurement on known text
 
-Held-out lines 12–18 of fr. 15572 f. 278r (238 signs) were read by eye sign by sign as a reference ([../data/known-text/ref-278r-l12-18.txt](../data/known-text/ref-278r-l12-18.txt)); where the eye cannot choose, two names are accepted. The reference was checked by decoding it against the decipherment on f. 280r. Sign accuracy = reference signs read right / reference signs, after an edit-distance alignment per line. [score_heldout.py](score_heldout.py) recomputes it (Python 3, standard library):
+Held-out lines 12–18 of fr. 15572 f. 278r (238 signs) were read sign by sign from the image by Claude as a reference ([../data/known-text/ref-278r-l12-18.txt](../data/known-text/ref-278r-l12-18.txt)); where the image does not decide, two names are accepted. The reference was checked by decoding it against the decipherment on f. 280r. Sign accuracy = reference signs read right / reference signs, after an edit-distance alignment per line. [score_heldout.py](score_heldout.py) recomputes it (Python 3, standard library):
 
 ```
 $ python3 method/score_heldout.py
@@ -50,7 +50,7 @@ vote    229 / 238 reference signs read right -> sign accuracy 0.9622
 
 Strict scoring (first accepted name only) gives 0.9328 for the vote (`--strict`).
 
-Cautions: the reference was made by the same model family, by eye, after pass a had been seen; its independence is the decode check against the 1586 decipherment, not a second reader. At plaintext level the voted reading, decoded with the key, matches the f. 280r text on 0.69 of letters; the shortfall is mostly not the reader (code signs the key does not know, the n/t choice, text the decipherer wrote out where the cipher abbreviates, and our own reading of the cursive decipherment). That figure is a floor.
+Cautions: the reference was made by Claude, the same model as the reader, after pass a had been seen; its independence is the decode check against the 1586 decipherment, not a second reader. At plaintext level the voted reading, decoded with the key, matches the f. 280r text on 0.69 of letters; the shortfall is mostly not the reader (code signs the key does not know, the n/t choice, text the decipherer wrote out where the cipher abbreviates, and our own reading of the cursive decipherment). That figure is a floor.
 
 ## Controls
 
@@ -58,7 +58,7 @@ A decoder with a dictionary makes almost anything look a little like its languag
 
 ## What this does not show
 
-- It is a machine reading, voted; no palaeographer has checked it.
+- It is a machine reading, voted; it awaits a palaeographer's reading.
 - The error rate on these pages is probably higher than on the calibration lines (the passes agree less often).
 - Several code signs are unidentified, and the n/t choice is made by a dictionary decoder.
 

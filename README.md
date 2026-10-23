@@ -4,7 +4,7 @@
 
 **BnF, Français 15573, ff. 379r–381v.** A despatch of autumn 1586 written wholly in cipher, six pages, addressed to King Henri III and probably sent by Marshal Jacques de Matignon from Guyenne. It uses the cipher that Satoshi Tomokiyo calls **Matignon's Cipher-3**.
 
-> **First reading of the whole despatch, version 0.5 (19 October 2026): near-complete.** Every page is read; 5 short stretches and 5 rare code signs remain open, all listed with their causes. Versions 0.1-0.3 were published on 18 October 2026, 0.4 on 19 October.
+> **First reading of the whole despatch, version 0.5.1 (21 October 2026): near-complete.** Every page is read; 5 short stretches and 5 rare code signs remain open, all listed with their causes. Versions 0.1-0.3 were published on 18 October 2026, 0.4 and 0.5 on 19 October; 0.5.1 (21 October) is a documentation update of 0.5, with the same reading.
 >
 > **Satoshi Tomokiyo published the opening line earlier**, on his page of Henri III's ciphers, which lists this letter as undeciphered and gives Matignon's Cipher-3: <https://cryptiana.web.fc2.com/code/henryiii.htm>. His opening reads "a ce quil plaist [votre] majeste me commander lui donner advis pour lentre de [votre] arme…". **Our reading of the opening matches it** (*a ce [q]uil … maieste*), and it was made without using his text.
 >
@@ -14,7 +14,7 @@
 
 - **0.2:** five reader passes voted per sign (0.1 had three); the decoder works on a whole page and chooses the letter of each two-valued sign by whole French words.
 - **0.3:** sign shapes the reference sheet had merged were split on the image, following Tomokiyo's table (each change needed two agreeing reader answers and a look at the crop); key values added only from aligned occurrences in the 1586 decipherments (fr. 15572 ff. 279-280) or Tomokiyo's table, doubtful values flagged; four correction rounds decided on the image (34 changes kept, 72 proposed changes rejected); 164 period place names, persons and words added to the lexicon, each tagged by source (`data/lexicon-additions.tsv`).
-- **0.4:** six key values learnt from a further Cipher-3 letter deciphered at the time, fr. 15570 ff. 271r-272r (September 1585, decipherment on f. 273): a long zigzag = ss, a 9 in a circle = *par*, d = *vostre* (confirmed: "vostre maieste" five times), and, each from one occurrence and flagged doubtful, a barred double o = the code group *le roy de Navarre*, "13" = *faict*, a figure 6 = s. The old key already read that 1585 letter as French before any change, an independent check of the key. Every sign whose class changed was sorted by eye and confirmed by two agreeing reader answers; one more image-decided correction round.
+- **0.4:** six key values learnt from a further Cipher-3 letter deciphered at the time, fr. 15570 ff. 271r-272r (September 1585, decipherment on f. 273): a long zigzag = ss, a 9 in a circle = *par*, d = *vostre* (confirmed: "vostre maieste" five times), and, each from one occurrence and flagged doubtful, a barred double o = the code group *le roy de Navarre*, "13" = *faict*, a figure 6 = s. The old key already read that 1585 letter as French before any change, an independent check of the key. Every sign whose class changed was sorted on the image by Claude and confirmed by two agreeing reader answers; one more image-decided correction round.
 - **0.5 (near-complete):** the remaining unread runs looked at again on the image; sign changes kept only where two blind reader answers agreed and the image supported them (e.g. *comencer par là*, *de Chastillon*, *faire sa recepte à Marmande*); further deciphered Cipher-3 letters (fr. 15572 ff. 189-190, 282; fr. 15573 f. 373) checked, but they carry only short summaries and none of the five unknown signs. Two period words (*comencer*, *acheminast*) were added to the lexicon after the text suggested them and are tagged so; without them f. 379v scores 0.898. Conjectures kept out of the key and flagged: a small 8 before "de" + a name may stand for *monsieur* ("monsieur de Villeroy", "monsieur de Gourgues"). No new key values.
 
 Share of signs that fall inside French words, per page. The known-answer page (fr. 15572 f. 278r, read and decoded the same way) scores 0.907 in v0.4, and the same signs shuffled score 0.59-0.70:
@@ -56,7 +56,7 @@ All pages were read the same way: three reader passes, voted, then image-checked
 | [reading/](reading/) | The French text of each page (Literal = exactly what the key gives; Normalised = the same letters with word breaks made by code) and an English gist of the readable stretches |
 | [data/](data/) | Per page: the signs as read (`signs.txt`, one manuscript line per row; `reading.json` with the votes for every sign), the key with the value chosen at every occurrence of a two-valued sign (`key.json`), the literal plaintext, corrections and controls. `key-cipher3.json` is the key with the origin of every value. `known-text/` holds the calibration material |
 | [decode/](decode/) | `decode.py`, a short stand-alone script (Python 3 standard library) that applies `key.json` to `signs.txt`, and `check.sh`, which reproduces all six pages byte for byte |
-| [method/](method/) | How the signs were read (the prompt given to Claude, the reference sheet of signs), the vote, the corrections, the key, the controls and the measurement on known text |
+| [method/](method/) | How the signs were read (the reference sheet of signs), the vote, the corrections, the key, the controls and the measurement on known text |
 | [PRIOR-ART.md](PRIOR-ART.md) | The prior-art search: what was searched, where, and every query with its result count |
 | [NUMBERS.md](NUMBERS.md) | Where every number in this README comes from |
 
@@ -92,7 +92,7 @@ The key is **Satoshi Tomokiyo's reconstruction** of Matignon's Cipher-3, publish
 
 *This describes version 0.1; later versions add the steps listed above.*
 
-1. **A letter with a known answer.** fr. 15572 ff. 277r–278r is in the same cipher and hand, and its decipherment made at the time survives (ff. 279r–280r). We read that decipherment by eye.
+1. **A letter with a known answer.** fr. 15572 ff. 277r–278r is in the same cipher and hand, and its decipherment made at the time survives (ff. 279r–280r). Claude read that decipherment from the image.
 2. **A reference sheet.** From f. 277r we cut a sheet of 50 sign shapes, 2–5 examples each, named by their look only (the names say nothing about meaning).
 3. **Claude reads the signs.** Each line was cut into pieces, and the pieces were shown to Claude (Anthropic, model Opus 5.5) under the reference sheet, with the instruction to name every sign from left to right. This was done three times with different cuts and magnifications.
 4. **Vote.** The three readings of each line were aligned and the majority name taken at each place.
@@ -103,13 +103,15 @@ The key is **Satoshi Tomokiyo's reconstruction** of Matignon's Cipher-3, publish
 
 Details are in [method/README.md](method/README.md).
 
+**How AI was used.** The cipher signs were read from the page images by Claude (Anthropic, model Opus 5.5) in three passes (five from version 0.2), combined by vote. On a page whose answer is known (fr. 15572 f. 278r, 238 signs), the vote reads 96.2 % of the signs correctly. Claude also read the 1586 decipherment used for calibration and the reference signs, and checked each correction against the image. The English gist is a translation by Claude, kept separate from the literal French. An AI coding assistant (Claude Code) was used. The decoding and the known-text measurement rerun without any AI service; Claude's readings are stored as data.
+
 ## Measured numbers
 
 *Calibration measurements on the known-answer letter (unchanged since version 0.1) and the version 0.1 controls; current per-page figures are in the table above.*
 
-**Reader calibrated on known text.** The reader was measured on fr. 15572 f. 278r, lines 12–18 (238 signs), against their contemporary decipherment on ff. 279–280. Nothing in the sheet or the key was tuned on these lines. The reference signs were read by eye and checked by decoding against the decipherment on f. 280r.
+**Reader calibrated on known text.** The reader was measured on fr. 15572 f. 278r, lines 12–18 (238 signs), against their contemporary decipherment on ff. 279–280. Nothing in the sheet or the key was tuned on these lines. The reference signs were read from the image by Claude, separately from the reader passes, and checked by decoding against the decipherment on f. 280r.
 
-| reader | sign accuracy (either name accepted where the eye cannot choose) |
+| reader | sign accuracy (either name accepted where the image does not decide) |
 |---|---|
 | pass a / b / c | 0.9538 / 0.9454 / 0.9244 |
 | **vote of the three passes** | **0.962** (0.933 strict, counting only the first accepted name) |
@@ -136,10 +138,10 @@ The readings sit at 3.874–4.42 bits per letter with dictionary cover 0.8607–
 - **Misread signs.** About one sign in twenty to thirty on known text, probably more on these pages. Stretches that match no dictionary word are shown in [brackets] in the Normalised text.
 - **Code signs not identified**: `x`, `oo`, `#`, `tri`, `excl`, `Lx2`, and the sign before *majesté* (probably *vostre*, an inference only). They print as `·`.
 - **The n/t choice** for the y-shaped signs is the main source of doubtful words; the 8-shaped sign (v/o) is a smaller one.
-- **No palaeographer has checked it.** The English gist is Claude's, from our Normalised French; it is not literal plaintext.
+- **It awaits a palaeographer's reading.** The English gist is a translation by Claude, from our Normalised French; it is not literal plaintext.
 - Line numbers of f. 381v run from 0 in `data/f381v/` (as in our working records) and from 1 in `reading/ff379-381-french.md`.
 
-This is version 0.5. **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
+This is version 0.5.1, a documentation update of version 0.5 (the reading is unchanged). **Updates will follow** as more of the code signs are identified (from other letters in the same cipher) and the weakest stretches are read again.
 
 ## Prior art
 
@@ -188,7 +190,7 @@ What cannot be repeated from this repository alone: Claude's sign readings thems
 
 - **Satoshi Tomokiyo**, for the reconstruction of Matignon's Cipher-3, the catalogue of these letters, and the first published line of this despatch (<https://cryptiana.web.fc2.com/code/henryiii.htm>).
 - **Bibliothèque nationale de France / Gallica**, for the manuscript images. Source gallica.bnf.fr / BnF.
-- **Anthropic's Claude** (model Opus 5.5) was used as the sign reader, for the correction checks, for reading the calibration decipherment and the reference lines by eye, and for the English gist.
+- **Anthropic's Claude** read the signs and gave the blind answers on proposed corrections (model Opus 5.5, through Anthropic's API), and read the calibration decipherment and the reference lines, checked the corrections on the image and wrote the English gist (see "How AI was used").
 
 Prepared by Brett Burford, October 2026.
 

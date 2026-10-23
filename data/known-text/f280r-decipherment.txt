@@ -1,6 +1,6 @@
 # BnF fr. 15572 f. 280r (Gallica btv1b9061879d view 290, right page): end of the contemporary
-# decipherment of ff. 277r-278r. Read by eye by Claude, 18 Oct 2026, from the BnF IIIF
-# image (Source gallica.bnf.fr / BnF). Conventions as f279r-decipherment.txt.
+# decipherment of ff. 277r-278r. Read by
+# Claude, 18 Oct 2026, from the BnF IIIF image (Source gallica.bnf.fr / BnF). Conventions as f279r-decipherment.txt.
 # This page is the KNOWN TEXT for the held-out reader test on f. 278r (no key or reader tuning
 # was made on it).
 quil na son lict avec luy et si cela est indubitablement quil sera tout

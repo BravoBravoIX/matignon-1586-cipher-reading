@@ -1,11 +1,11 @@
 # Reference sign transcription of BnF fr. 15572 f. 278r lines 12-18 (held-out page), names of
-# sheet v2 (+ q v oo Lp Lx2; x = a sign on no row). Read by eye by Claude at about
-# 1.1x native size, sign by sign, 18 Oct 2026; checked by decoding against the contemporary
+# sheet v2 (+ q v oo Lp Lx2; x = a sign on no row). Read by
+# Claude at about 1.1x native size, sign by sign, 18 Oct 2026; checked by decoding against the contemporary
 # decipherment f. 280r (lines 6-11: "de larmee estant les rivieres de dordoigne et garonne
 # entre deux ne la arrestent et ce qui les y pourra convier davantage est quil est sur la
 # recolte et que beaucoup craindront perdre leurs fruictz si cela est il ne fault doubter que
 # les petites villes ne se perdent et les meilleures en grand branle iavois mande").
-# a|b = either name is accepted (the sign is ambiguous to the eye). Small interlinear letters
+# a|b = either name is accepted (the image does not decide between them). Small interlinear letters
 # written above some signs on this page by a contemporary hand are not signs.
 12 T b B + eta T 30 Lx xi b a eta mq ss 18 b T Z 57 th k F u ss B m Z 57 T L S y|yv 23 mq k
 13 /// 23 eta T Lq|Lr B k u y|yv a T k xi 57 + v eta|mq k q|9t 57 S|d eta g Lq|Z T B y|yv y|yv x x

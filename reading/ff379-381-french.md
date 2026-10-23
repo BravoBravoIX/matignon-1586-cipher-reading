@@ -5,7 +5,7 @@ Images: Gallica `btv1b90618780` views 740–745, Source gallica.bnf.fr / BnF.
 
 **Status: near-complete reading (v0.5); open items listed.** 2,837 signs were read by Claude Opus 5.5 against a sign sheet (five passes, voted), then:
 
-- sign classes the sheet had merged were told apart on the image (version 0.5: B/Bn, xi/eps, 9t/z3, S/Sq, 14/4, oo, each change asked of the reader twice and looked at by eye; version 0.5: xi/zz, S/6, S/Gc and the code signs Noo and 13, decided by eye on contact sheets of every occurrence, see `stageF-relabel.json`);
+- sign classes the sheet had merged were told apart on the image (version 0.3: B/Bn, xi/eps, 9t/z3, S/Sq, 14/4, oo, each change asked of the reader twice and checked on the image by Claude; version 0.4: xi/zz, S/6, S/Gc and the code signs Noo and 13, decided by Claude on contact sheets of every occurrence, see `stageF-relabel.json`);
 - five image-decided correction rounds on the unresolved stretches (a change only where two reader asks agree and the image supports it);
 - names, places and period spellings added to the lexicon (`lexicon-additions-v1.tsv`), and an elision rule (l', d', qu'...).
 

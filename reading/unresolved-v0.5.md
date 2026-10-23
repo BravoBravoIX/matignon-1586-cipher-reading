@@ -1,7 +1,7 @@
 # Unresolved stretches, version 0.5
 
 Every run of signs that the page-level decoder did not place inside a dictionary word of three letters or more (or a listed short word), and every weak run (three or more decoded words in a row of two letters or fewer).
-Each was looked at on the image by the Claude agent .
+Each was looked at on the image by Claude; "the agent" below means Claude.
 
 Columns:
 - **line**: the manuscript line (1-based);

@@ -3,7 +3,7 @@
  "sign_names": "visual names of reference sheet v2 (stageA/sheet-v2.json) plus q, v, oo, Lp, Lx2; stage E adds Bn, eps, z3 (split from B, xi, 9t on the image) 60, Sq and 4; stage F adds zz (split from xi on the image), Noo and 13; Gc (a 9 in a circle) and 6 (a plain figure 6), told apart from S on the image",
  "origins": {
   "T": "Tomokiyo's published table (henryiii_Matignon3.png, cryptiana.web.fc2.com/code/henryiii.htm)",
-  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts); stage E adds f. 277v aligned by eye with f. 279v; stage F adds fr. 15570 ff. 271r-272r (Sept. 1585) aligned with its decipherment f. 273r-v",
+  "E": "EM alignment of our reading of fr. 15572 ff. 277r and 278r with their contemporary decipherment ff. 279r and 280r (stageA/key-v2.json counts); stage E adds f. 277v aligned with f. 279v by Claude; stage F adds fr. 15570 ff. 271r-272r (Sept. 1585) aligned with its decipherment f. 273r-v",
   "E?": "EM, few occurrences (< 6) or split: doubtful",
   "C?": "conjecture from context in the target itself (a code value); doubtful, listed for checking"
  },
